@@ -26,7 +26,7 @@ Seamus:
 
 Cover Art, Banner, and Group Photos were made using Google Gemini
 Gameplay videos were made using Google Gemini
-
+Main Theme MP3 is "Hitting Hard (Cinematic Rock Trailer)" by Alex_Kizenkov on pixabay.com
 
 
 
