@@ -16,6 +16,7 @@ Joseph:
 - a name for one of the dungeons
 - Made the second dungeon with items
 - Made logo
+- Added most media elements
 
 
 
@@ -23,6 +24,7 @@ Seamus:
 - came up with items to add
 - a name for one of the dungeons
 - edited tables to match the previous tables we had
+- Added iframe element
 
 Cover Art, Banner, Desert Gameplay, Item Obtained, Contact Us, and Group Photos were made using Google Gemini
 Gameplay videos were made using Google Gemini
