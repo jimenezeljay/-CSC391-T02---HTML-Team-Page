@@ -24,7 +24,7 @@ Seamus:
 - a name for one of the dungeons
 - edited tables to match the previous tables we had
 
-Cover Art Photo was made using Google Gemini
+Cover Art and Banner Photos were made using Google Gemini
 
 
 
