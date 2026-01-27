@@ -15,7 +15,6 @@ Joseph:
 - came up with items to add
 - a name for one of the dungeons
 - Made the second dungeon with items
-- Made logo
 - Added most media elements
 
 
