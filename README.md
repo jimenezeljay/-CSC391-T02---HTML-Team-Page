@@ -15,6 +15,7 @@ Joseph:
 - came up with items to add
 - a name for one of the dungeons
 - Made the second dungeon with items
+- Made logo
 
 
 
@@ -23,7 +24,7 @@ Seamus:
 - a name for one of the dungeons
 - edited tables to match the previous tables we had
 
-
+About Us Photo was made using Google Gemini
 
 
 
