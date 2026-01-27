@@ -24,7 +24,7 @@ Seamus:
 - a name for one of the dungeons
 - edited tables to match the previous tables we had
 
-Cover Art, Banner, and Group Photos were made using Google Gemini
+Cover Art, Banner, Desert Gameplay, Item Obtained, and Group Photos were made using Google Gemini
 Gameplay videos were made using Google Gemini
 Main Theme MP3 is "Hitting Hard (Cinematic Rock Trailer)" by Alex_Kizenkov on pixabay.com
 
