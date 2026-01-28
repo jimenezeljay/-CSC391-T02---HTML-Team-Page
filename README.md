@@ -29,7 +29,7 @@ Cover Art, Banner, Desert Gameplay, Item Obtained, Contact Us, and Group Photos 
 Gameplay videos were made using Google Gemini
 Main Theme MP3 is "Hitting Hard (Cinematic Rock Trailer)" by Alex_Kizenkov on pixabay.com
 
-
+Used https://www.w3schools.com/tags/tag_col.asp for help with <col> and <colgroup> tags
 
 
 https://www.w3schools.com/tags/
