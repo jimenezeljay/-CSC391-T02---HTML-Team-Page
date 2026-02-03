@@ -49,8 +49,20 @@ th,
 td {
     border: 1px solid black;
     border-collapse: collapse;
-  margin: 35px 70px 50px 70px;
+    margin: 35px 70px 50px 70px;
+}
 
+#descCells {
+    background-color: #868686;
+}
+
+th,
+td {
+    background-color: #EDD5C6;
+}
+
+#bronze {
+    background-color: #A8763E;
 }
 
 aside {
