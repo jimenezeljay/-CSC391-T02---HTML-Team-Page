@@ -56,7 +56,6 @@ aside {
     padding-left: 15px;
     margin-left: 15px;
     float: right;
-    font-style: italic;
     background-color: lightgray;
 }
 
@@ -88,17 +87,13 @@ a:active {
     color: blue;
 }
 
+
 /* default text font */
 
 p {
- 
-  font-family: "Times New Roman", serif;
-
-
+    font-family: "Times New Roman", serif;
 }
 
 i {
-  font-family: Garamond, "Adobe Garamond Pro", "EB Garamond", "Times New Roman", serif;
+    font-family: Garamond, "Adobe Garamond Pro", "EB Garamond", "Times New Roman", serif;
 }
-
-
