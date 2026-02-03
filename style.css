@@ -26,7 +26,14 @@ body {
     background-color: #EDD5C6;
 }
 
-h1 {
+header {
     background-color: #773434;
-    height: 100px;
+    padding: 20px;
+    margin: 1px;
+}
+
+#itemlist {
+    background-color: #ee85248e;
+    padding: 20px;
+    margin: 1px;
 }
