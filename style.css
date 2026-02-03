@@ -90,8 +90,6 @@ a:active {
 
 /* default text font */
 
-p {
- 
-  font-family: Garamond, "Adobe Garamond Pro", "EB Garamond", "Times New Roman", serif;
-
+.p1 {
+  font-family: "EB Garamond", Garamond, "Times New Roman", serif;
 }
