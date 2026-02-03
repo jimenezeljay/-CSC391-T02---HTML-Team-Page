@@ -87,3 +87,11 @@ a:hover {
 a:active {
     color: blue;
 }
+
+/* default text font */
+
+p {
+ 
+  font-family: Garamond, "Adobe Garamond Pro", "EB Garamond", "Times New Roman", serif;
+
+}
