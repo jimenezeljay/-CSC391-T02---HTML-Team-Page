@@ -91,6 +91,5 @@ a:active {
 /* default text font */
 
 .p1 {
-  font-family: "Times New Roman", Times, Georgia, serif;
-
+  font-family: "Lucida Console", "Courier New", monospace;
 }
