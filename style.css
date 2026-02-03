@@ -44,15 +44,11 @@ footer {
     margin: 1px;
 }
 
-td.descCells {
+.descCells {
     background-color: #868686;
 }
 
-th.descCells {
-    background-color: #868686;
-}
-
-td.bronze {
+.bronze {
     background-color: #A8763E;
 }
 
