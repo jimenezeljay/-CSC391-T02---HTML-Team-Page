@@ -91,19 +91,9 @@ a:active {
 /* default text font */
 
 i {
-  font-family: Garamond, "Adobe Garamond Pro", "EB Garamond", "Times New Roman", serif;
+    font-family: Garamond, "Adobe Garamond Pro", "EB Garamond", "Times New Roman", serif;
 }
 
 p {
     font-family: "Times New Roman", serif;
 }
-
-<<<<<<< HEAD
-i {
-    font-family: Garamond, "Adobe Garamond Pro", "EB Garamond", "Times New Roman", serif;
-}
-=======
-
-
-
->>>>>>> 67ab23f (italics)
