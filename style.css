@@ -32,6 +32,12 @@ header {
     margin: 1px;
 }
 
+footer {
+    background-color: #773434;
+    padding: 5px;
+    margin: 1px;
+}
+
 #itemlist {
     background-color: #ee85248e;
     padding: 20px;
@@ -52,4 +58,32 @@ aside {
     float: right;
     font-style: italic;
     background-color: lightgray;
+}
+
+
+/* unvisited link */
+
+a:link {
+    color: rgb(0, 255, 179);
+}
+
+
+/* visited link */
+
+a:visited {
+    color: rgb(87, 71, 170);
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: rgb(213, 0, 28);
+}
+
+
+/* selected link */
+
+a:active {
+    color: blue;
 }

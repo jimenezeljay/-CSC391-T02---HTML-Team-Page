@@ -31,6 +31,7 @@ Main Theme MP3 is "Hitting Hard (Cinematic Rock Trailer)" by Alex_Kizenkov on pi
 
 Used https://www.w3schools.com/tags/tag_col.asp for help with <col> and <colgroup> tags
 
+Link styling examples from https://www.w3schools.com/css/css_link.asp
 
 https://www.w3schools.com/tags/
 https://www.w3schools.com/tags/tag_details.asp
