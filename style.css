@@ -82,12 +82,9 @@ tr:nth-child(odd) {
     padding: 5px;
 }
 
-tr:hover {
+tr:hover,
+td:nth-child(3):hover {
     background-color: #756985 !important;
-}
-
-td:nth-child(2):hover {
-    background-color: #756985;
 }
 
 table,
