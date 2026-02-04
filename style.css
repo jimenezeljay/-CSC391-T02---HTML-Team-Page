@@ -52,8 +52,24 @@ td:nth-child(3) {
     background-color: #9b9b9b;
 }
 
-.bronze {
+.Bronze {
     background-color: #A8763E;
+}
+
+.Iron {
+    background-color: #E1DEE3;
+}
+
+.Silver {
+    background-color: #ECF0F1;
+}
+
+.Gold {
+    background-color: #FBB13C;
+}
+
+.Platinum {
+    background-color: #748386;
 }
 
 th,
