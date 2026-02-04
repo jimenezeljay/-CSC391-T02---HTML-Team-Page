@@ -48,10 +48,6 @@ th:nth-child(3) {
     background-color: #c4c4c4;
 }
 
-td:nth-child(3) {
-    background-color: #9b9b9b;
-}
-
 .Bronze {
     background-color: #A8763E;
 }
@@ -84,6 +80,14 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     background-color: #e1b396;
     padding: 5px;
+}
+
+tr:hover {
+    background-color: #756985 !important;
+}
+
+td:nth-child(2):hover {
+    background-color: #756985;
 }
 
 table,
