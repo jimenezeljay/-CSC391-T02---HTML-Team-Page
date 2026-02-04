@@ -44,11 +44,25 @@ footer {
     margin: 1px;
 }
 
+.descCells {
+    background-color: #868686;
+}
+
+.bronze {
+    background-color: #A8763E;
+}
+
+th,
+td {
+    background-color: #EDD5C6;
+}
+
 table,
 th,
 td {
     border: 1px solid black;
     border-collapse: collapse;
+    margin: 35px 70px 50px 70px;
 }
 
 aside {
@@ -59,18 +73,29 @@ aside {
     background-color: lightgray;
 }
 
+button.link {
+
+  border: 1px solid black;
+  background-color: #EDD5C6;
+  padding-top: 15;
+  padding-right: 15;
+  padding-bottom: 15;
+  padding-left: 15;
+
+}
+
 
 /* unvisited link */
 
 a:link {
-    color: rgb(0, 255, 179);
+    color: rgb(0, 132, 255);
 }
 
 
 /* visited link */
 
 a:visited {
-    color: rgb(0, 131, 22);
+    color: rgb(116, 0, 131);
 }
 
 
