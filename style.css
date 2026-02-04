@@ -77,22 +77,24 @@ SECTION/SPECIFIC STYLING
     margin: 50px;
 }
 
-#banner {}
+#banner {
+    display: block;
+    margin: auto;
+}
+
+
+/* All text in gallery is centered */
 
 #gallery h2,
-h3,
-h4,
-p {
+#gallery h3,
+#gallery h4,
+#gallery p {
     text-align: center;
 }
 
 .gallery-item {
     display: block;
     margin: auto;
-}
-
-.center-text {
-    text-align: center;
 }
 
 
