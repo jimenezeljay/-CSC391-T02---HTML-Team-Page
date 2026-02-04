@@ -51,6 +51,10 @@ aside {
     background-color: #756985;
 }
 
+dialog {
+    background-color: #EDD5C6;
+}
+
 
 /* box model for the about section */
 
@@ -80,10 +84,15 @@ TABLE STYLING
 
 table,
 th,
+caption,
 td {
     border: 1px solid black;
     border-collapse: collapse;
     margin: 35px 70px 50px 70px;
+}
+
+caption {
+    background-color: #EDD5C6;
 }
 
 tr {
