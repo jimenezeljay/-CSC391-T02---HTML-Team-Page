@@ -44,10 +44,6 @@ footer {
     margin: 1px;
 }
 
-th:nth-child(3) {
-    background-color: #c4c4c4;
-}
-
 .Bronze {
     background-color: #A8763E;
 }
@@ -66,10 +62,6 @@ th:nth-child(3) {
 
 .Platinum {
     background-color: #748386;
-}
-
-th {
-    background-color: #e1b396;
 }
 
 tr:nth-child(even) {
