@@ -86,14 +86,16 @@ td {
     margin: 35px 70px 50px 70px;
 }
 
+tr {
+    padding: 5px;
+}
+
 tr:nth-child(even) {
     background-color: #EDD5C6;
-    padding: 5px;
 }
 
 tr:nth-child(odd) {
     background-color: #e1b396;
-    padding: 5px;
 }
 
 tr:hover,
