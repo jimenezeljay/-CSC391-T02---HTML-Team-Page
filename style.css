@@ -190,6 +190,13 @@ i {
 }
 
 p {
-    font-family: "Helvetica", serif;
+    font-family: "Georgia", serif;
     line-height: 1.3;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Garamond", serif;
 }
