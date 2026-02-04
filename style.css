@@ -151,6 +151,10 @@ button.link {
     padding-left: 15;
 }
 
+button.link:hover {
+    background-color: #756985
+}
+
 
 /* unvisited link */
 
