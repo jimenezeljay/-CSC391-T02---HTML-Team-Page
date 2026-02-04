@@ -44,8 +44,12 @@ footer {
     margin: 1px;
 }
 
-.descCells {
-    background-color: #868686;
+th:nth-child(3) {
+    background-color: #c4c4c4;
+}
+
+td:nth-child(3) {
+    background-color: #9b9b9b;
 }
 
 .bronze {
@@ -74,14 +78,12 @@ aside {
 }
 
 button.link {
-
-  border: 1px solid black;
-  background-color: #EDD5C6;
-  padding-top: 15;
-  padding-right: 15;
-  padding-bottom: 15;
-  padding-left: 15;
-
+    border: 1px solid black;
+    background-color: #EDD5C6;
+    padding-top: 15;
+    padding-right: 15;
+    padding-bottom: 15;
+    padding-left: 15;
 }
 
 
@@ -125,9 +127,11 @@ p {
     line-height: 1.3;
 }
 
+
 /* box model for the about section */
+
 div {
-    background-color:#773434;
+    background-color: #773434;
     width: 300px;
     border: 15px solid #BD7532;
     padding: 50px;
