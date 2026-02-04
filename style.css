@@ -127,7 +127,7 @@ p {
 
 /* box model for the about section */
 div {
-    background-color:#773434
+    background-color:#773434;
     width: 300px;
     border: 15px solid #BD7532;
     padding: 50px;
