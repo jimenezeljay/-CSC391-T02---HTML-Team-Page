@@ -79,7 +79,21 @@ SECTION/SPECIFIC STYLING
 
 #banner {}
 
-.galleryitem {}
+#gallery h2,
+h3,
+h4,
+p {
+    text-align: center;
+}
+
+.gallery-item {
+    display: block;
+    margin: auto;
+}
+
+.center-text {
+    text-align: center;
+}
 
 
 /*
