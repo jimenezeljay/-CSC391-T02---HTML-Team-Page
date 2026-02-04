@@ -73,9 +73,13 @@ SECTION/SPECIFIC STYLING
 
 #itemlist {
     background-color: #ee85248e;
-    padding: 20px;
-    margin: 1px;
+    padding: 15px;
+    margin: 50px;
 }
+
+#banner {}
+
+.galleryitem {}
 
 
 /*
