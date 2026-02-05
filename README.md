@@ -10,6 +10,7 @@ Eljay:
 - A name for one of the dungeons
 - Added a third dungeon with items
 - Helped with color scheme
+- Create box model for about page
 
 
 Joseph:
