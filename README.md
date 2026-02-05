@@ -9,7 +9,6 @@ Eljay:
 - Came up with items to add
 - a name for one of the dungeons
 - added a third dungeon with items
-- Added div and navigation buttons
 - Helped with color scheme
 - 
 
@@ -33,6 +32,7 @@ Seamus:
 - Added iframe element
 - Padding and margins
 - Most of typography
+- Added div and navigation buttons
 - Helped with color scheme
 
 Cover Art, Banner, Desert Gameplay, Item Obtained, Contact Us, and Group Photos were made using Google Gemini
