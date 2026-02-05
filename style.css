@@ -132,12 +132,16 @@ tr:nth-child(even) {
     background-color: #EDD5C6;
 }
 
+th:nth-child(3) {
+    background-color: #e1b396
+}
+
 tr:nth-child(odd) {
     background-color: #e1b396;
 }
 
-tr:hover,
-td:nth-child(3):hover {
+tr:hover {
+    border-color: white;
     background-color: #756985 !important;
 }
 
