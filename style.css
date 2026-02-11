@@ -29,6 +29,15 @@ BASIC ELEMENT STYLING
 ====================
 */
 
+
+/*Allows header and footer to take up entire space*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #6881cc;
 }
@@ -36,16 +45,18 @@ body {
 header {
     background-color: #0047ab;
     padding: 10px;
-    margin: 1px;
+    margin-bottom: 1px;
     position: sticky;
     top: 0;
     z-index: 1;
+    width: 100%;
 }
 
 footer {
     background-color: #0047ab;
     padding: 5px;
     margin: 1px;
+    width: 100%;
 }
 
 aside {
@@ -71,23 +82,49 @@ div {
     margin: 20px;
 }
 
-.sidebar {
-    margin: 0;
-    width: 50px;
-    height: 60vh;
-    padding: 15px;
-    position: absolute;
-    position: sticky;
-    top: 6rem;
-    border: 5px solid #060f13
-}
-
 
 /*
 ====================
 SECTION/SPECIFIC STYLING
 ====================
 */
+
+.sidebar {
+    margin: 0;
+    width: 70px;
+    height: 55vh;
+    padding: 15px;
+    position: fixed;
+    top: 7rem;
+    left: 0;
+    border: 5px solid #060f13
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #D3AF37;
+}
+
+.sidebar li {
+    float: center;
+}
+
+.sidebar li a {
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    text-decoration: none;
+}
+
+.sidebar li a:hover {
+    background-color: #1f2427;
+}
 
 #itemlist {
     background-color: #0047ab;
