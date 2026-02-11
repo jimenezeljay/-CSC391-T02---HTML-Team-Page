@@ -70,15 +70,9 @@ dialog {
     background-color: #007BA7;
 }
 
-
-/* box model for the about section */
-
-div {
-    background-color: #0047ab;
-    width: 300px;
-    border: 15px solid #007BA7;
-    padding: 50px;
-    margin: 20px;
+figure {
+    display: flex;
+    flex-flow: column;
 }
 
 
@@ -96,7 +90,9 @@ SECTION/SPECIFIC STYLING
     position: fixed;
     top: 7rem;
     left: 0;
-    border: 5px solid #060f13
+    border: 5px solid #060f13;
+    background-color: #0047ab;
+    z-index: 1;
 }
 
 .sidebar ul {
@@ -148,10 +144,27 @@ SECTION/SPECIFIC STYLING
 
 .gallery-item {
     display: block;
-    margin: auto;
 }
 
-#aboutDiv {}
+.subgallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+
+/* box model for the about section */
+
+#aboutDiv {
+    background-color: #0047ab;
+    width: 300px;
+    border: 15px solid #007BA7;
+    padding: 50px;
+    margin: 20px;
+}
 
 
 /*
@@ -323,4 +336,9 @@ details {
 
 li {
     color: white;
+}
+
+img:hover,
+video:hover {
+    -webkit-filter: saturate(200%);
 }
