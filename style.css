@@ -206,21 +206,21 @@ a:link {
 /* visited link */
 
 a:visited {
-    color: rgb(208, 16, 234);
+    color: rgb(85, 0, 254);
 }
 
 
 /* mouse over link */
 
 a:hover {
-    color: rgb(213, 0, 28);
+    color: rgb(0, 255, 51);
 }
 
 
 /* selected link */
 
 a:active {
-    color: blue;
+    color: rgb(250, 0, 171);
 }
 
 
@@ -237,7 +237,7 @@ i {
 }
 
 p {
-    font-family: "Georgia", serif;
+    font-family: "Palatino", serif;
     line-height: 1.3;
     color: white;
 }
@@ -245,7 +245,8 @@ p {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h1 i {
     font-family: "Copperplate", serif;
     color: #D3AF37;
 }
