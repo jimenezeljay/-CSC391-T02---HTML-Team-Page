@@ -27,4 +27,5 @@ https://www.w3schools.com/tags/
 https://www.w3schools.com/tags/tag_details.asp
 https://www.w3schools.com/tags/tag_dialog.asp
 https://www.w3schools.com/cssref/pr_pos_z-index.php
+https://www.youtube.com/watch?v=znmdx4UZTAg, for sticky navbar
 
