@@ -16,10 +16,10 @@ body {
 
 
 /*
-Primary: #773434, Orange-Brown
-Secondary, #ee85248e, Tan
-Accent, #756985, Purple
-Background, #EDD5C6, Cream
+Primary: #0047ab, Cobalt Blue
+Secondary, #007BA7, Cerulean
+Accent, #D3AF37, Gold
+Background, #305cde, Royal Blue
 */
 
 
@@ -30,17 +30,20 @@ BASIC ELEMENT STYLING
 */
 
 body {
-    background-color: #EDD5C6;
+    background-color: #6881cc;
 }
 
 header {
-    background-color: #773434;
-    padding: 20px;
+    background-color: #0047ab;
+    padding: 10px;
     margin: 1px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 footer {
-    background-color: #773434;
+    background-color: #0047ab;
     padding: 5px;
     margin: 1px;
 }
@@ -50,20 +53,20 @@ aside {
     padding-left: 15px;
     margin-left: 15px;
     float: right;
-    background-color: #756985;
+    background-color: #007BA7;
 }
 
 dialog {
-    background-color: #EDD5C6;
+    background-color: #007BA7;
 }
 
 
 /* box model for the about section */
 
 div {
-    background-color: #773434;
+    background-color: #0047ab;
     width: 300px;
-    border: 15px solid #BD7532;
+    border: 15px solid #007BA7;
     padding: 50px;
     margin: 20px;
 }
@@ -76,7 +79,7 @@ SECTION/SPECIFIC STYLING
 */
 
 #itemlist {
-    background-color: #ee85248e;
+    background-color: #0047ab;
     padding: 15px;
     margin: 50px;
 }
@@ -118,7 +121,7 @@ td {
 }
 
 caption {
-    background-color: #EDD5C6;
+    background-color: #D3AF37;
 }
 
 
@@ -129,20 +132,20 @@ tr {
 }
 
 tr:nth-child(even) {
-    background-color: #EDD5C6;
+    background-color: #305cde;
 }
 
 th:nth-child(3) {
-    background-color: #e1b396
+    background-color: #007BA7;
 }
 
 tr:nth-child(odd) {
-    background-color: #e1b396;
+    background-color: #007BA7;
 }
 
 tr:hover {
     border-color: white;
-    background-color: #756985 !important;
+    background-color: #D3AF37 !important;
 }
 
 
@@ -181,7 +184,7 @@ LINK AND NAVIGATION STYLING
 
 button.link {
     border: 1px solid black;
-    background-color: #EDD5C6;
+    background-color: #D3AF37;
     padding-top: 15;
     padding-right: 15;
     padding-bottom: 15;
@@ -189,7 +192,7 @@ button.link {
 }
 
 button.link:hover {
-    background-color: #756985
+    background-color: #756985;
 }
 
 
@@ -230,16 +233,40 @@ TYPOGRAPY STYLING
 i {
     font-family: Garamond, "Adobe Garamond Pro", "EB Garamond", "Times New Roman", serif;
     line-height: 1.3;
+    color: white;
 }
 
 p {
     font-family: "Georgia", serif;
     line-height: 1.3;
+    color: white;
 }
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: "Garamond", serif;
+    font-family: "Copperplate", serif;
+    color: #D3AF37;
+}
+
+caption {
+    color: black;
+}
+
+tr,
+th {
+    color: rgb(0, 0, 0);
+}
+
+table i {
+    color: black;
+}
+
+details {
+    color: rgb(218, 218, 218);
+}
+
+li {
+    color: white;
 }

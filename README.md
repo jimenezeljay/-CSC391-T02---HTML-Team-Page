@@ -4,35 +4,14 @@ Team 5 Members: Eljay Jimenez, Joseph Racca, Seamus Sommers
 What each team member contributed to the webpage
 
 Eljay:
-- Made the layout of the tables using tables tag
-- Figured out how to do a pull down with tables inside
-- Came up with items to add
-- A name for one of the dungeons
-- Added a third dungeon with items
-- Helped with color scheme
-- Create box model for about page
+
 
 
 Joseph:
-- Came up with items to add
-- A name for one of the dungeons
-- Made the second dungeon with items
-- Added most media elements
-- Edited Trailer
-- Padding and margins
-- Row coloration and row hovering
-- Navigation link coloring
 
 
 Seamus:
-- Came up with items to add
-- A name for one of the dungeons
-- Edited tables to match the previous tables we had
-- Added iframe element
-- Padding and margins
-- Most of typography
-- Added div and navigation buttons
-- Helped with color scheme
+
 
 Cover Art, Banner, Desert Gameplay, Item Obtained, Contact Us, and Group Photos were made using Google Gemini
 Gameplay videos were made using Google Gemini
