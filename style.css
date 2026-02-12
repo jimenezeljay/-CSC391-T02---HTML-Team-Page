@@ -87,6 +87,10 @@ main {
     padding-right: 20px;
 }
 
+iframe {
+    width: 100%;
+}
+
 
 /*
 ====================
