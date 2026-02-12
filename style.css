@@ -100,14 +100,14 @@ SECTION/SPECIFIC STYLING
 
 .sidebar {
     margin: 0;
-    width: 70px;
+    width: 90px;
     height: 55vh;
-    padding: 15px;
+    padding: 5px;
     position: fixed;
     top: 7rem;
     left: 0;
-    border: 5px solid #060f13;
-    background-color: #0047ab;
+    border: 3px solid #060f13;
+    background-color: #D3AF37;
     z-index: 1;
 }
 
@@ -121,17 +121,22 @@ SECTION/SPECIFIC STYLING
 
 .sidebar li {
     float: center;
+    border-color: #060f13;
+    border-width: 1px;
+    border-style: solid;
 }
 
 .sidebar li a,
 .currentpage {
     display: block;
-    text-align: center;
+    text-align: left;
     padding-top: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     padding-bottom: 30px;
     text-decoration: none;
+    font-family: "Copperplate", serif;
+    color: black;
 }
 
 .sidebar li a:hover,
@@ -141,7 +146,14 @@ SECTION/SPECIFIC STYLING
 
 .currentpage,
 #homebutton {
-    background-color: #00b72b;
+    background-color: #0047ab;
+}
+
+#HomeNav {
+  border-color: #060f13;
+  border-width: 2px;
+  border-style: solid;
+  padding: 0px;
 }
 
 #itemlist {
