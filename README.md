@@ -36,3 +36,5 @@ https://www.w3schools.com/cssref/pr_pos_z-index.php
 https://www.youtube.com/watch?v=znmdx4UZTAg, for sticky navbar
 https://stackoverflow.com/questions/64146195/how-do-i-make-sure-my-header-takes-up-the-entire-screen-in-html, to get header and footer to take up entire screen
 
+Flex box was modeled after this: https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_responsive2
+

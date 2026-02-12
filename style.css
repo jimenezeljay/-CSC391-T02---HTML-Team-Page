@@ -82,15 +82,11 @@ dialog {
     max-width: 600px;
 }
 
-figure {
-    display: flex;
-    flex-flow: column;
-}
-
 main {
     margin-left: 120px;
     padding-right: 20px;
 }
+
 
 /*
 ====================
@@ -146,7 +142,7 @@ SECTION/SPECIFIC STYLING
 #banner {
     display: block;
     margin: auto;
-    max-width: 100%; 
+    max-width: 100%;
     position: relative;
     z-index: 1;
 }
@@ -161,17 +157,24 @@ SECTION/SPECIFIC STYLING
     text-align: center;
 }
 
-.gallery-item {
-    display: block;
+.subgallery {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.subgallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
+.gallery-item {
+    text-align: center;
+    font-size: 30px;
+    flex: 20%;
+}
+
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+
+@media (max-width: 600px) {
+    .gallery-item {
+        flex: 100%;
+    }
 }
 
 
