@@ -45,10 +45,13 @@ body {
 header {
     background-color: #0047ab;
     padding: 10px;
-    width: 100%;
+    /*width: 100%;*/
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 2;
+    margin-right: -20px;
+    margin-left: -120px;
+    padding-left: 130px;
 }
 
 footer {
@@ -68,6 +71,15 @@ aside {
 
 dialog {
     background-color: #007BA7;
+    /*margin-left: 0;*/
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 3px solid #D3AF37;
+    border-radius: 8px;
+    max-width: 600px;
 }
 
 figure {
@@ -75,6 +87,10 @@ figure {
     flex-flow: column;
 }
 
+main {
+    margin-left: 120px;
+    padding-right: 20px;
+}
 
 /*
 ====================
@@ -124,12 +140,15 @@ SECTION/SPECIFIC STYLING
 #itemlist {
     background-color: #0047ab;
     padding: 15px;
-    margin: 50px;
+    margin: 50px 50px 50px 20px;
 }
 
 #banner {
     display: block;
     margin: auto;
+    max-width: 100%; 
+    position: relative;
+    z-index: 1;
 }
 
 
@@ -163,7 +182,7 @@ SECTION/SPECIFIC STYLING
     width: 300px;
     border: 15px solid #007BA7;
     padding: 50px;
-    margin: 20px;
+    margin-left: 20px;
 }
 
 
@@ -179,7 +198,7 @@ caption,
 td {
     border: 1px solid black;
     border-collapse: collapse;
-    margin: 35px 70px 50px 70px;
+    margin: 35px 20px 50px 20px;
 }
 
 caption {
@@ -341,4 +360,5 @@ li {
 img:hover,
 video:hover {
     -webkit-filter: saturate(200%);
+    filter: saturate(200%);
 }
