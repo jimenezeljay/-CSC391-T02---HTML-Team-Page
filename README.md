@@ -4,13 +4,19 @@ Team 5 Members: Eljay Jimenez, Joseph Racca, Seamus Sommers
 What each team member contributed to the webpage
 
 Eljay:
+-Margin and paddings
 
 
 
 Joseph:
+-Typography
+-Color scheme
+-Side nav bar
+-Grid gallery
 
 
 Seamus:
+-Color scheme
 
 
 Cover Art, Banner, Desert Gameplay, Item Obtained, Contact Us, and Group Photos were made using Google Gemini
