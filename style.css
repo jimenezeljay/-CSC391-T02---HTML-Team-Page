@@ -131,7 +131,7 @@ SECTION/SPECIFIC STYLING
 }
 
 .sidebar li a:hover,
-.currentpage {
+.currentpage:hover {
     background-color: #1f2427;
 }
 
