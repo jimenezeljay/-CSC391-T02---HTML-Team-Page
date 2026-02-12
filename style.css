@@ -119,7 +119,8 @@ SECTION/SPECIFIC STYLING
     float: center;
 }
 
-.sidebar li a {
+.sidebar li a,
+.currentpage {
     display: block;
     text-align: center;
     padding-top: 30px;
@@ -129,8 +130,14 @@ SECTION/SPECIFIC STYLING
     text-decoration: none;
 }
 
-.sidebar li a:hover {
+.sidebar li a:hover,
+.currentpage {
     background-color: #1f2427;
+}
+
+.currentpage,
+#homebutton {
+    background-color: #00b72b;
 }
 
 #itemlist {
