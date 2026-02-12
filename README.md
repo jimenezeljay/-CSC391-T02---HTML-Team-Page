@@ -18,6 +18,7 @@ Joseph:
 Seamus:
 -Color scheme
 
+We did the Team 1 and Team 4 requirements
 
 Cover Art, Banner, Desert Gameplay, Item Obtained, Contact Us, and Group Photos were made using Google Gemini
 Gameplay videos were made using Google Gemini
