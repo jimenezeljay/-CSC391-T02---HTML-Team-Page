@@ -152,10 +152,10 @@ SECTION/SPECIFIC STYLING
 }
 
 #HomeNav {
-  border-color: #060f13;
-  border-width: 2px;
-  border-style: solid;
-  padding: 0px;
+    border-color: #060f13;
+    border-width: 2px;
+    border-style: solid;
+    padding: 0px;
 }
 
 #itemlist {
@@ -174,19 +174,20 @@ SECTION/SPECIFIC STYLING
 }
 
 .ProPic {
-  border-radius: 50%;
-  width:200px;
-  height: 200px;
-  top: 2px;
-  left: 300px;
-  border: 2px solid #111111;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    top: 2px;
+    left: 300px;
+    border: 2px solid #111111;
 }
 
 figcaption {
-  color: #333333;
-  font-style: italic;
-  padding: 3px;
-  text-align: center; /* Centers the caption text */
+    color: #333333;
+    font-style: italic;
+    padding: 3px;
+    text-align: center;
+    /* Centers the caption text */
 }
 
 
@@ -211,16 +212,17 @@ figcaption {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0px;
 }
 
-.container > div {
-  border: 1px solid black;
-  padding: 0px;
-  text-align: center;
+.container>div {
+    border: 1px solid black;
+    padding: 0px;
+    text-align: center;
 }
+
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 
@@ -241,17 +243,17 @@ figcaption {
     margin-left: 20px;
     margin-top: 10px;
     font-size: 20px;
-    
 }
+
 #aboutDiv1 {
-  background-color: #0047ab;
-  border: 15px solid #007BA7;
-  padding: 50px;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;  
-  margin-bottom: 20px;
-  text-align: center;
+    background-color: #0047ab;
+    border: 15px solid #007BA7;
+    padding: 50px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 
