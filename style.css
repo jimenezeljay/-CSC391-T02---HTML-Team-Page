@@ -51,6 +51,7 @@ header {
     z-index: 2;
     margin-right: -20px;
     margin-left: -120px;
+    margin-bottom: 20px;
     padding-left: 130px;
 }
 
@@ -142,6 +143,7 @@ SECTION/SPECIFIC STYLING
 .sidebar li a:hover,
 .currentpage:hover {
     background-color: #1f2427;
+    color: gold;
 }
 
 .currentpage,
@@ -169,6 +171,22 @@ SECTION/SPECIFIC STYLING
     aspect-ratio: 3 / 1;
     position: relative;
     z-index: 1;
+}
+
+.ProPic {
+  border-radius: 50%;
+  width:200px;
+  height: 200px;
+  top: 2px;
+  left: 300px;
+  border: 2px solid #111111;
+}
+
+figcaption {
+  color: #333333;
+  font-style: italic;
+  padding: 3px;
+  text-align: center; /* Centers the caption text */
 }
 
 
@@ -210,6 +228,8 @@ SECTION/SPECIFIC STYLING
     border: 15px solid #007BA7;
     padding: 50px;
     margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
     
 }
 
