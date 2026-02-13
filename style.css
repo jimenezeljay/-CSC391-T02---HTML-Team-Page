@@ -210,6 +210,17 @@ figcaption {
     flex: 20%;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0px;
+}
+
+.container > div {
+  border: 1px solid black;
+  padding: 0px;
+  text-align: center;
+}
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 
@@ -224,13 +235,23 @@ figcaption {
 
 #aboutDiv {
     background-color: #0047ab;
-    width: 300px;
+    width: 250px;
     border: 15px solid #007BA7;
     padding: 50px;
     margin-left: 20px;
     margin-top: 10px;
     font-size: 20px;
     
+}
+#aboutDiv1 {
+  background-color: #0047ab;
+  border: 15px solid #007BA7;
+  padding: 50px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;  
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 
