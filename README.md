@@ -27,6 +27,12 @@ Gemini Chats:
 https://gemini.google.com/share/fd69ed8d5e2b
 https://gemini.google.com/share/307b4860583e
 https://gemini.google.com/share/4b1723347ac7
+https://gemini.google.com/share/321d479fad00
+https://gemini.google.com/share/e1ffe988360d
+https://gemini.google.com/share/a34531546217
+https://gemini.google.com/share/ee016b6fca26
+https://gemini.google.com/share/ee016b6fca26
+
 
 Main Theme MP3 is "Hitting Hard (Cinematic Rock Trailer)" by Alex_Kizenkov on https://pixabay.com 
 
