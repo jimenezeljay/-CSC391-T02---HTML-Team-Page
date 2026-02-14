@@ -23,6 +23,11 @@ We did the Team 1 and Team 4 requirements
 Cover Art, Banner, Desert Gameplay, Item Obtained, Contact Us, and Group Photos were made using Google Gemini
 Gameplay videos were made using Google Gemini
 Voice in Trailer was made using Speechify
+Gemini Chats:
+https://gemini.google.com/share/fd69ed8d5e2b
+https://gemini.google.com/share/307b4860583e
+https://gemini.google.com/share/4b1723347ac7
+
 Main Theme MP3 is "Hitting Hard (Cinematic Rock Trailer)" by Alex_Kizenkov on https://pixabay.com 
 
 Used https://www.w3schools.com/tags/tag_col.asp for help with <col> and <colgroup> tags
