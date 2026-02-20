@@ -268,10 +268,15 @@ TABLE STYLING
     background-color: #305cde;
 }
 
-.table-striped>tbody>tr>:hover,
-.table-striped>tbody>tr>:hover {
+.table-hover>tbody>tr>:hover,
+.table-hover>tbody>tr>:hover {
     border-color: white;
     background-color: #D3AF37 !important;
+}
+
+.table-bordered {
+    border-color: black;
+    border: 5px;
 }
 
 
