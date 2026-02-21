@@ -267,7 +267,7 @@ TABLE STYLING
     background-color: #007BA7;
 }
 
-.table-hover>tbody>tr:hover,
+.table-hover>tbody>tr>td:hover,
 .table-hover>thead:hover {
     border-color: white;
     background-color: #D3AF37 !important;
