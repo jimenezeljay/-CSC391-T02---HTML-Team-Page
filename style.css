@@ -1,21 +1,4 @@
 /*
-
-example of how to do a CSS styling thingy:
-p {
-  color: red;
-}
-  - makes the color red
-
-body {
-  background-image: url("bgdesert.jpg");
-}
-    - makes the background a desert image
-
-
-*/
-
-
-/*
 Primary: #0047ab, Cobalt Blue
 Secondary, #007BA7, Cerulean
 Accent, #D3AF37, Gold
@@ -90,6 +73,19 @@ main {
 
 iframe {
     width: 100%;
+}
+
+.modal {
+    background-color: #03344642;
+}
+
+.modal-body,
+.modal-footer {
+    background-color: #007BA7;
+}
+
+.modal p {
+    font-size: 20px;
 }
 
 

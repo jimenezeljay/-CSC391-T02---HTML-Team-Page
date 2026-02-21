@@ -29,12 +29,14 @@ Platinum    ⭐⭐⭐⭐⭐ #748386
 <html>
 
 <head>
-    <link rel="stylesheet" href="bootstrap.ccs">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <title>KOSM Items List </title>
     <!--for fonts-->
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
-
 </head>
 
 
@@ -118,7 +120,7 @@ Platinum    ⭐⭐⭐⭐⭐ #748386
                         </colgroup>
                         <thead>
                             <tr>
-                                <th>Frösh Berries</th>
+                                <th><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#desc1">Frösh Berries</button></th>
                                 <th>Info:</th>
                                 <th>Description</th>
                             </tr>
@@ -148,7 +150,7 @@ Platinum    ⭐⭐⭐⭐⭐ #748386
                         <!--The second item-->
                         <thead>
                             <tr>
-                                <th>Oh Bomb Ahh</th>
+                                <th><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#desc2">Oh Bomb Ahh</button></th>
                                 <th>Info:</th>
                                 <th>Description</th>
                             </tr>
@@ -602,10 +604,6 @@ Platinum    ⭐⭐⭐⭐⭐ #748386
 
             <iframe src="https://eldenring.wiki.gg/" allow="fullscreen" title="Eldin Ring Iframe" width="700" height="400"> </iframe>
         </section>
-
-
-
-
     </main>
 </body>
 <!---
@@ -618,6 +616,56 @@ Platinum    ⭐⭐⭐⭐⭐ #748386
     <p>This is a unofficial, fan run service. <i>Knights of Sigg Muh</i> is the full intellectual property and trademark of Average Enjoyer Studios.
         <a href="https://github.com/jimenezeljay/-CSC391-T02---HTML-Team-Page">GitHub for this wiki</a></p>
 </footer>
+
+<!---
+====================
+    MODALS
+====================
+---->
+<div class="container">
+    <div class="modal fade" id="desc1" role="dialog">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Description</h4>
+                </div>
+                <div class="modal-body">
+                    <p class="text-black">Berries that refresh the soul along with your hunger and thirst.<br> These berries are located from the region of Gilead, often in rocky and mountainous locations.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<div class="container">
+    <div class="modal fade" id="desc2" role="dialog">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Description</h4>
+                </div>
+                <div class="modal-body">
+                    <p class="text-black">A legendary bomb that clears away any debuff splash effects</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
 
 </html>
 
