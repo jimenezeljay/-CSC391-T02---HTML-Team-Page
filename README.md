@@ -4,19 +4,18 @@ Team 5 Members: Eljay Jimenez, Joseph Racca, Seamus Sommers
 What each team member contributed to the webpage
 
 Eljay:
--Margin and paddings
+-
 
 
 
 Joseph:
--Typography
--Color scheme
--Side nav bar
--Grid gallery
-
+-Modals
+-Tables
+-Downloaded Bootstrap
 
 Seamus:
--Color scheme
+-Grid
+- Utilities
 
 We did the Team 1 and Team 4 requirements
 
