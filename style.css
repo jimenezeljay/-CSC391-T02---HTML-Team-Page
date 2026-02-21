@@ -279,48 +279,6 @@ TABLE STYLING
 
 
 /*
-table,
-th,
-caption,
-td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    margin: 35px 20px 50px 20px;
-}
-
-caption {
-    background-color: #D3AF37;
-}
-
-
-
-/*table row styling*/
-
-
-/*
-tr {
-    padding: 5px;
-}
-
-tr:nth-child(even) {
-    background-color: #305cde;
-}
-
-th:nth-child(3) {
-    background-color: #007BA7;
-}
-
-tr:nth-child(odd) {
-    background-color: #007BA7;
-}
-
-tr:hover {
-    border-color: white;
-    background-color: #D3AF37 !important;
-}*/
-
-
-/*
 ====================
 TIER COLORING STYLING
 ====================
