@@ -49,3 +49,6 @@ https://stackoverflow.com/questions/64146195/how-do-i-make-sure-my-header-takes-
 
 Flex box was modeled after this: https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_responsive2
 
+Button and modals were taken from: https://www.w3schools.com/bootstrap/bootstrap_modal.asp
+
+
