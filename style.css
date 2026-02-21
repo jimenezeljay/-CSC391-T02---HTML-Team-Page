@@ -277,6 +277,10 @@ TABLE STYLING
     background-color: #D3AF37 !important;
 }
 
+.table-bordered {
+    border-color: black;
+}
+
 
 /*
 table,
