@@ -14,8 +14,10 @@ Joseph:
 -Downloaded Bootstrap
 
 Seamus:
--Grid
+- Grid
 - Utilities
+- Gallery
+- Alert
 
 We did the Team 1 and Team 4 requirements
 
