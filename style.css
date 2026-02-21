@@ -263,20 +263,18 @@ TABLE STYLING
 ====================
 */
 
-.table-striped>tbody>tr:nth-child(even)>td,
-.table-striped>tbody>tr:nth-child(even)>th {
+.table-striped>tbody>tr:nth-child(even)>td {
     background-color: #305cde;
 }
 
-.table-hover>tbody>tr>:hover,
-.table-hover>tbody>tr>:hover {
-    border-color: white;
-    background-color: #D3AF37 !important;
+.table-striped>thead {
+    background-color: #0047ab;
 }
 
-.table-bordered {
-    border-color: black;
-    border: 5px;
+.table-hover>tbody>tr:hover,
+.table-hover>thead:hover {
+    border-color: white;
+    background-color: #D3AF37 !important;
 }
 
 
