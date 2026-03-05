@@ -1,6 +1,9 @@
 # -CSC391-T02---HTML-Team-Page
 Team 5 Members: Eljay Jimenez, Joseph Racca, Seamus Sommers
 
+For team reference: 
+Sass compilation command 'sass scss/custom.scss css/custom-bootstrap.css'
+
 What each team member contributed to the webpage
 
 Eljay:
@@ -11,15 +14,13 @@ Eljay:
 Joseph:
 -Modals
 -Tables
--Downloaded Bootstrap
+-Downloaded Bootstrap and JS files
 
 Seamus:
 - Grid
 - Utilities
 - Gallery
 - Alert
-
-We did the Team 1 and Team 4 requirements
 
 Cover Art, Banner, Desert Gameplay, Item Obtained, Contact Us, and Group Photos were made using Google Gemini
 Gameplay videos were made using Google Gemini

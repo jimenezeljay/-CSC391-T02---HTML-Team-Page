@@ -75,19 +75,6 @@ iframe {
     width: 100%;
 }
 
-.modal {
-    background-color: #03344642;
-}
-
-.modal-body,
-.modal-footer {
-    background-color: #007BA7;
-}
-
-.modal p {
-    font-size: 20px;
-}
-
 
 /*
 ====================
@@ -258,24 +245,6 @@ figcaption {
 TABLE STYLING
 ====================
 */
-
-.table-striped>tbody>tr:nth-child(even)>td {
-    background-color: #305cde;
-}
-
-.table-striped>thead {
-    background-color: #007BA7;
-}
-
-.table-hover>tbody>tr>td:hover,
-.table-hover>thead:hover {
-    border-color: white;
-    background-color: #D3AF37 !important;
-}
-
-.table-bordered {
-    border-color: black;
-}
 
 
 /*
