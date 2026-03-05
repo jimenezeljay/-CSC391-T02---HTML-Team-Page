@@ -1,43 +1,4 @@
 @charset "UTF-8";
-.table-hover tbody tr:hover {
-  background-color: rgba(0, 0, 0, 0.075);
-}
-
-.table-striped tbody tr:nth-of-type(odd) {
-  background-color: #D3AF37;
-}
-
-.table-striped > tbody > tr:nth-child(even) > td {
-  background-color: #305cde;
-}
-
-.table-striped > thead {
-  background-color: #007BA7;
-}
-
-.table-hover > tbody > tr > td:hover,
-.table-hover > thead:hover {
-  border-color: white;
-  background-color: #D3AF37 !important;
-}
-
-.table-bordered {
-  border-color: black;
-}
-
-.modal {
-  background-color: rgba(3, 52, 70, 0.2588235294);
-}
-
-.modal-body,
-.modal-footer {
-  background-color: #007BA7;
-}
-
-.modal p {
-  font-size: 20px;
-}
-
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -8950,5 +8911,56 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+.table {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #007BA7;
+}
+
+.table-striped > tbody > tr:nth-child(even) > td {
+  background-color: #0047ab;
+}
+
+.table-striped > thead {
+  background-color: #007BA7;
+}
+
+.table-hover > tbody > tr > td:hover,
+.table-hover > thead:hover {
+  border-color: white;
+  background-color: #D3AF37 !important;
+}
+
+.table-bordered {
+  border-color: black;
+}
+
+.modal {
+  background-color: rgba(3, 52, 70, 0.2588235294);
+}
+
+.modal-body,
+.modal-footer {
+  background-color: #007BA7;
+}
+
+.modal p {
+  font-size: 20px;
+}
+
+.alert {
+  background-color: #D3AF37;
+}
+.alert p {
+  font-style: italic;
+  color: white;
+}
 
 /*# sourceMappingURL=custom-bootstrap.css.map */

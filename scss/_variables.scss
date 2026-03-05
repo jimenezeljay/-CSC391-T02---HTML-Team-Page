@@ -1,14 +1,20 @@
+@use '../css/bootstrap' as *;
 //====COLORS====
 $primary: #0047ab;
 $secondary: #007BA7;
 $accent: #D3AF37;
 //====TABLE STYLING====
+.table {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
 .table-hover tbody tr:hover {
     background-color: rgba(0, 0, 0, 0.075);
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
-    background-color: $accent;
+    background-color: $secondary;
 }
 
 .table-striped>tbody>tr:nth-child(even)>td {
@@ -43,4 +49,10 @@ $accent: #D3AF37;
     font-size: 20px;
 }
 
-@import "../css/bootstrap"
+.alert {
+    background-color: $accent;
+    p {
+        font-style: italic;
+        color: white;
+    }
+}
