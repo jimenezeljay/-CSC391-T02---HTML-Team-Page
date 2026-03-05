@@ -3,6 +3,7 @@
 $primary: #0047ab;
 $secondary: #007BA7;
 $accent: #D3AF37;
+$bgcolor: #305cde;
 //====TABLE STYLING====
 .table {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -59,4 +60,8 @@ $accent: #D3AF37;
     background-color: $accent;
     font-style: italic;
     color: white;
+}
+
+body {
+    background-color: $bgcolor;
 }
