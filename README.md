@@ -21,8 +21,9 @@ Seamus:
 - Utilities
 - Gallery
 - Alert
+- Icon
 
-Cover Art, Banner, Desert Gameplay, Item Obtained, Contact Us, and Group Photos were made using Google Gemini
+Icon, Cover Art, Banner, Desert Gameplay, Item Obtained, Contact Us, and Group Photos were made using Google Gemini
 Gameplay videos were made using Google Gemini
 Voice in Trailer was made using Speechify
 Gemini Chats:
