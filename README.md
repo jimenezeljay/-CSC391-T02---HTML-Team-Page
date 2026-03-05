@@ -15,12 +15,12 @@ Joseph:
 -Modals
 -Tables
 -Downloaded Bootstrap and JS files
+-Alert Styling
 
 Seamus:
 - Grid
 - Utilities
 - Gallery
-- Alert
 - Icon
 
 Icon, Cover Art, Banner, Desert Gameplay, Item Obtained, Contact Us, and Group Photos were made using Google Gemini
