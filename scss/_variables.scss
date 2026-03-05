@@ -6,7 +6,11 @@ $accent: #D3AF37;
 //====TABLE STYLING====
 .table {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+    font-size: medium;
+    th,
+    td {
+        color: white;
+    }
 }
 
 .table-hover tbody tr:hover {
@@ -51,8 +55,6 @@ $accent: #D3AF37;
 
 .alert {
     background-color: $accent;
-    p {
-        font-style: italic;
-        color: white;
-    }
+    font-style: italic;
+    color: white;
 }

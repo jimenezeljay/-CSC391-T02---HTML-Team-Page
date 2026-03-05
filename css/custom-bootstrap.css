@@ -8913,6 +8913,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 .table {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: medium;
+}
+.table th,
+.table td {
   color: white;
 }
 
@@ -8957,8 +8961,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .alert {
   background-color: #D3AF37;
-}
-.alert p {
   font-style: italic;
   color: white;
 }
