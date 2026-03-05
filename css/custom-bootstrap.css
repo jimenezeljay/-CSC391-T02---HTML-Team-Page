@@ -8965,4 +8965,12 @@ a.text-dark:hover, a.text-dark:focus {
   color: white;
 }
 
+body {
+  background-color: #305cde;
+}
+
+.text-info {
+  color: white !important;
+}
+
 /*# sourceMappingURL=custom-bootstrap.css.map */
