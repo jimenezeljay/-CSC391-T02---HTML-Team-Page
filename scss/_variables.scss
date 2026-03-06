@@ -15,11 +15,7 @@ $bgcolor: #305cde;
     }
 }
 
-.table-hover tbody tr:hover {
-    background-color: rgba(0, 0, 0, 0.075);
-}
-
-.table-striped tbody tr:nth-of-type(odd) {
+.table-striped>tbody>tr:nth-child(odd)>td {
     background-color: $secondary;
 }
 
@@ -33,7 +29,6 @@ $bgcolor: #305cde;
 
 .table-hover>tbody>tr>td:hover,
 .table-hover>thead:hover {
-    border-color: white;
     background-color: $accent !important;
 }
 
