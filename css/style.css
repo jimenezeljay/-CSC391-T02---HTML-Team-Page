@@ -158,7 +158,10 @@ SECTION/SPECIFIC STYLING
     height: 200px;
     top: 2px;
     left: 300px;
-    border: 2px solid #111111;
+    border: 5px solid #111111;
+    padding: 3px;
+    margin-top: 15px;
+    margin-bottom: 40px;
 }
 
 figcaption {
@@ -216,13 +219,17 @@ figcaption {
 
 #aboutDiv {
     background-color: #0047ab;
-    width: 250px;
+    width: 95%;
     border: 15px solid #007BA7;
     padding: 50px;
     margin-left: 20px;
     margin-top: 10px;
     font-size: 20px;
+    font-family: Garamond, "Adobe Garamond Pro", "EB Garamond", "Times New Roman", serif;
+
 }
+
+
 
 #aboutDiv1 {
     background-color: #0047ab;
