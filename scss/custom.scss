@@ -1,1 +1,9 @@
-@use 'variables'
+@use 'variables' as *; //Includes our customized bootstrap variables
+details {
+    color: rgb(218, 218, 218);
+    font-size: 20px;
+}
+
+details:hover {
+    color: $accent;
+}

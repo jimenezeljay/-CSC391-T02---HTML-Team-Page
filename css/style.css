@@ -226,10 +226,7 @@ figcaption {
     margin-top: 10px;
     font-size: 20px;
     font-family: Garamond, "Adobe Garamond Pro", "EB Garamond", "Times New Roman", serif;
-
 }
-
-
 
 #aboutDiv1 {
     background-color: #0047ab;
@@ -367,10 +364,6 @@ th {
 
 table i {
     color: black;
-}
-
-details {
-    color: rgb(218, 218, 218);
 }
 
 li {

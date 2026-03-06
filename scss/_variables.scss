@@ -1,10 +1,14 @@
-@use '../css/bootstrap' as *;
-//====COLORS====
+@use '../css/bootstrap' as *; //Includes general bootstrap styling that is edited here
+//====GENERAL STYLING====
 $primary: #0047ab;
 $secondary: #007BA7;
 $tablehead: #03009b;
 $accent: #D3AF37;
 $bgcolor: #305cde;
+body {
+    background-color: $bgcolor;
+}
+
 //====TABLE STYLING====
 .table {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -56,6 +60,7 @@ $bgcolor: #305cde;
     }
 }
 
+//===BUTTON STYLING===
 .btn {
     background-color: transparent;
     border-color: transparent;
@@ -69,6 +74,7 @@ $bgcolor: #305cde;
 }
 
 .modal-footer {
+    //This is modal styling but it more applicable to the buttons inside the modal
     .btn {
         background-color: rgb(255, 255, 255);
     }
@@ -78,20 +84,7 @@ $bgcolor: #305cde;
     }
 }
 
-.alert {
-    background-color: $accent;
-    font-style: italic;
-    color: white;
-}
-
-body {
-    background-color: $bgcolor;
-}
-
-.text-info {
-    color: white !important;
-}
-
+//===CAPTION STYLING===
 caption {
     caption-side: top;
     background-color: white;
@@ -102,7 +95,13 @@ caption {
     text-align: center;
 }
 
-caption:hover {
-    background-color: black;
-    color: $accent;
+//===OTHER===
+.alert {
+    background-color: $accent;
+    font-style: italic;
+    color: white;
+}
+
+.text-info {
+    color: white !important;
 }
