@@ -8933,7 +8933,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .table-striped > thead {
-  background-color: #007BA7;
+  background-color: #03009b;
 }
 
 .table-hover > tbody > tr > td:hover,
@@ -8955,8 +8955,32 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #007BA7;
 }
 
+.modal-body {
+  padding: 50px;
+}
+
 .modal p {
   font-size: 20px;
+}
+
+.btn {
+  background-color: transparent;
+  border-color: transparent;
+  font-size: medium;
+  font-style: bold;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border-color: black;
+}
+
+.modal-footer .btn {
+  background-color: rgb(255, 255, 255);
+}
+.modal-footer .btn:hover {
+  background-color: #D3AF37;
+  color: white;
 }
 
 .alert {

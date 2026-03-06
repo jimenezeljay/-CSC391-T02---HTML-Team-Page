@@ -2,6 +2,7 @@
 //====COLORS====
 $primary: #0047ab;
 $secondary: #007BA7;
+$tablehead: #03009b;
 $accent: #D3AF37;
 $bgcolor: #305cde;
 //====TABLE STYLING====
@@ -27,7 +28,7 @@ $bgcolor: #305cde;
 }
 
 .table-striped>thead {
-    background-color: $secondary;
+    background-color: $tablehead;
 }
 
 .table-hover>tbody>tr>td:hover,
@@ -50,9 +51,35 @@ $bgcolor: #305cde;
     background-color: $secondary;
 }
 
+.modal-body {
+    padding: 50px;
+}
+
 .modal {
     p {
         font-size: 20px;
+    }
+}
+
+.btn {
+    background-color: transparent;
+    border-color: transparent;
+    font-size: medium;
+    font-style: bold;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border-color: black;
+}
+
+.modal-footer {
+    .btn {
+        background-color: rgb(255, 255, 255);
+    }
+    .btn:hover {
+        background-color: $accent;
+        color: white;
     }
 }
 
