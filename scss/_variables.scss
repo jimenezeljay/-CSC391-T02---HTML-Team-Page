@@ -27,7 +27,7 @@ $bgcolor: #305cde;
     background-color: $tablehead;
 }
 
-.table-hover>tbody>tr>td:hover,
+.table-striped>tbody>tr>td:hover,
 .table-hover>thead:hover {
     background-color: $accent !important;
 }
@@ -90,4 +90,19 @@ body {
 
 .text-info {
     color: white !important;
+}
+
+caption {
+    caption-side: top;
+    background-color: white;
+    color: $tablehead;
+    font-family: "Copperplate", serif;
+    font-size: 25px;
+    font-style: bold;
+    text-align: center;
+}
+
+caption:hover {
+    background-color: black;
+    color: $accent;
 }
