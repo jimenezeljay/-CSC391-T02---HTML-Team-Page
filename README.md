@@ -12,16 +12,12 @@ Eljay:
 
 
 Joseph:
-- Modals
-- Tables
-- Downloaded Bootstrap and JS files
-- Alert Styling
+-Shield enlargement
+-JSON file
+-Table creation
 
 Seamus:
-- Grid
-- Gallery
-- Icon
-- About Me Fixes
+
 
 Icon, Cover Art, Banner, Desert Gameplay, Item Obtained, Contact Us, and Group Photos were made using Google Gemini
 Gameplay videos were made using Google Gemini
@@ -56,4 +52,5 @@ Flex box was modeled after this: https://www.w3schools.com/css/tryit.asp?filenam
 
 Button and modals were taken from: https://www.w3schools.com/bootstrap/bootstrap_modal.asp
 
+Table creation code: https://www.youtube.com/watch?v=1tYjbrmsj6A
 
