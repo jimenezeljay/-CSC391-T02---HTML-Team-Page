@@ -1,28 +1,123 @@
 {
-    "table1data": [
-        { "name": "Fräsh Berries", "rarity": "Bronze", "source": "Bushes", "droprate": "90", "type": "Consumable" },
-        { "name": "Oh Bomb Ahh", "rarity": "Iron", "source": "Chest", "droprate": "60.5", "type": "Ammo" },
-        { "name": "Apollonia's boots", "rarity": "Silver", "source": "Chest", "droprate": "15", "type": "Armor" },
-        { "name": "Thunderblades", "rarity": "Gold", "source": "Chest", "droprate": "12.5", "type": "Weapon" },
-        { "name": "Thesius' Club", "rarity": "Platinum", "source": "Altarbound Colossus (boss)", "droprate": "4.7", "type": "Weapon" }
+    "table1data": [{
+            "name": "Fräsh Berries",
+            "rarity": "Bronze",
+            "source": "Bushes",
+            "droprate": "90",
+            "type": "Consumable",
+            "desc": "Berries that refresh the soul along with your hunger and thirst.<br> These berries are located from the region of Gilead, often in rocky and mountainous locations"
+        },
+        {
+            "name": "Oh Bomb Ahh",
+            "rarity": "Iron",
+            "source": "Chest",
+            "droprate": "60.5",
+            "type": "Ammo",
+            "desc": "A legendary bomb that clears away any debuff splash effects"
+        },
+        {
+            "name": "Apollonia's boots",
+            "rarity": "Silver",
+            "source": "Chest",
+            "droprate": "15",
+            "type": "Armor",
+            "desc": "Grants control over solar energy arrows and movement speed increase"
+        },
+        {
+            "name": "Thunderblades",
+            "rarity": "Gold",
+            "source": "Chest",
+            "droprate": "12.5",
+            "type": "Weapon",
+            "desc": "Charged with electrical power (doubles if a thunderstorm is happening)"
+        },
+        {
+            "name": "Thesius' Club",
+            "rarity": "Platinum",
+            "source": "Altarbound Colossus (boss)",
+            "droprate": "4.7",
+            "type": "Weapon",
+            "desc": "When equiped, grants the the user enhanced durability and underwater breathing. Gains power every time you strike an enemy with this weapon"
+        }
     ]
 }
 
 {
-    "table2data": [
-        { "name": "Raptor Rapier", "rarity": "Bronze", "source": "Chest", "droprate": "87.5", "type": "Weapon" },
-        { "name": "Hornet Helmet", "rarity": "Iron", "source": "Chest", "droprate": "87.5", "type": "Armor" },
-        { "name": "Vapory Vestige", "rarity": "Silver", "source": "Chest", "droprate": "87.5", "type": "Armor" },
-        { "name": "Philosopher's Stone", "rarity": "Platinum", "source": "Horrible Hornet King (boss)", "droprate": "100", "type": "Key Item" }
+    "table2data": [{
+            "name": "Raptor Rapier",
+            "rarity": "Bronze",
+            "source": "Chest",
+            "droprate": "87.5",
+            "type": "Weapon",
+            "desc": "A blade modelled after a raptors claw. Gives the blood debuff"
+        },
+        {
+            "name": "Hornet Helmet",
+            "rarity": "Iron",
+            "source": "Chest",
+            "droprate": "87.5",
+            "type": "Armor",
+            "desc": "A helmet modelled after some kind of harrowing hornet"
+        },
+        {
+            "name": "Vapory Vestige",
+            "rarity": "Silver",
+            "source": "Chest",
+            "droprate": "87.5",
+            "type": "Armor",
+            "desc": "A strange mask. Prevents stat drops"
+        },
+        {
+            "name": "Philosopher's Stone",
+            "rarity": "Platinum",
+            "source": "Horrible Hornet King (boss)",
+            "droprate": "100",
+            "type": "Key Item",
+            "desc": "Grants eternal life, or so legends say. Note: Required to beat the final boss, the Gig of Chad. Has no pratical use in gameplay and is only used a cutscene"
+        }
     ]
 }
 
 {
-    "table3data": [
-        { "name": "Galvanic Spear", "rarity": "Silver", "source": "Chest", "droprate": "20", "type": "Weapon" },
-        { "name": "Scorch Kartana ", "rarity": "Silver", "source": "Scorch guardians(enemies)", "droprate": "10", "type": "Weapon" },
-        { "name": "Gravity Long Bow", "rarity": "Gold", "source": "Mage of Precision(seceret boss)", "droprate": "5", "type": "Weapon" },
-        { "name": "Ripple Rapier", "rarity": "Platinum", "source": "Vestiage of Water(boss)", "droprate": "100", "type": "Key Item" },
-        { "name": "Blood Sickles", "rarity": "Platinum", "source": "Curdling Blood Demon(boss)", "droprate": "100", "type": "Key Item" },
+    "table3data": [{
+            "name": "Galvanic Spear",
+            "rarity": "Silver",
+            "source": "Chest",
+            "droprate": "20",
+            "type": "Weapon",
+            "desc": "20 consective thunderous strikes. Piercing enemies and chain lighting for every strike"
+        },
+        {
+            "name": "Scorch Kartana ",
+            "rarity": "Silver",
+            "source": "Scorch guardians(enemies)",
+            "droprate": "10",
+            "type": "Weapon",
+            "desc": "Control the weight of the arrows and how far they carry. Can shoot 5 arrows at a time, making them heavy or light and able to control the speed in which the arrows fly"
+        },
+        {
+            "name": "Gravity Long Bow",
+            "rarity": "Gold",
+            "source": "Mage of Precision(seceret boss)",
+            "droprate": "5",
+            "type": "Weapon",
+            "desc": "Control the weight of the arrows and how far they carry. Can shoot 5 arrows at a time, making them heavy or light and able to control the speed in which the arrows fly"
+        },
+        {
+            "name": "Ripple Rapier",
+            "rarity": "Platinum",
+            "source": "Vestiage of Water(boss)",
+            "droprate": "100",
+            "type": "Key Item",
+            "desc": "Blade is made of high pressure water, making you able to control the length and being able to cut around any tight corners. A flexible blade of water that can cut enemies, even through cracks of walls"
+        },
+        {
+            "name": "Blood Sickles",
+            "rarity": "Platinum",
+            "source": "Curdling Blood Demon(boss)",
+            "droprate": "100",
+            "type": "Key Item",
+            "desc": "Able to teleport through blood portals, making movement unpredicable. Able to throw them and grapple opponents along with doing long ranged slices through the air"
+        }
     ]
 }
