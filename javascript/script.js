@@ -36,7 +36,7 @@ let tr = thead.insertRow(-1);
 for (let index = 0; index < col.length; index++) {
     let th = document.createElement("th");
     th.innerHTML = col[index];
-    tr.appendChild(th)
+    tr.appendChild(th);
 }
 
 
