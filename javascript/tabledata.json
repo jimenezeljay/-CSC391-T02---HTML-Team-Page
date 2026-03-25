@@ -1,0 +1,28 @@
+{
+    "table1data": [
+        { "name": "Fräsh Berries", "rarity": "Bronze", "source": "Bushes", "droprate": "90", "type": "Consumable" },
+        { "name": "Oh Bomb Ahh", "rarity": "Iron", "source": "Chest", "droprate": "60.5", "type": "Ammo" },
+        { "name": "Apollonia's boots", "rarity": "Silver", "source": "Chest", "droprate": "15", "type": "Armor" },
+        { "name": "Thunderblades", "rarity": "Gold", "source": "Chest", "droprate": "12.5", "type": "Weapon" },
+        { "name": "Thesius' Club", "rarity": "Platinum", "source": "Altarbound Colossus (boss)", "droprate": "4.7", "type": "Weapon" }
+    ]
+}
+
+{
+    "table2data": [
+        { "name": "Raptor Rapier", "rarity": "Bronze", "source": "Chest", "droprate": "87.5", "type": "Weapon" },
+        { "name": "Hornet Helmet", "rarity": "Iron", "source": "Chest", "droprate": "87.5", "type": "Armor" },
+        { "name": "Vapory Vestige", "rarity": "Silver", "source": "Chest", "droprate": "87.5", "type": "Armor" },
+        { "name": "Philosopher's Stone", "rarity": "Platinum", "source": "Horrible Hornet King (boss)", "droprate": "100", "type": "Key Item" }
+    ]
+}
+
+{
+    "table3data": [
+        { "name": "Galvanic Spear", "rarity": "Silver", "source": "Chest", "droprate": "20", "type": "Weapon" },
+        { "name": "Scorch Kartana ", "rarity": "Silver", "source": "Scorch guardians(enemies)", "droprate": "10", "type": "Weapon" },
+        { "name": "Gravity Long Bow", "rarity": "Gold", "source": "Mage of Precision(seceret boss)", "droprate": "5", "type": "Weapon" },
+        { "name": "Ripple Rapier", "rarity": "Platinum", "source": "Vestiage of Water(boss)", "droprate": "100", "type": "Key Item" },
+        { "name": "Blood Sickles", "rarity": "Platinum", "source": "Curdling Blood Demon(boss)", "droprate": "100", "type": "Key Item" },
+    ]
+}
