@@ -349,6 +349,13 @@ p {
     color: white;
 }
 
+.comment-style {
+    font-family: "Palatino", serif;
+    line-height: 1.3;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5; 
+}
+
 h1,
 h2,
 h3,

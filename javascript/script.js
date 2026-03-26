@@ -36,30 +36,42 @@ fetch(url)
     })
 
 
-$(document).ready(function() {
+// wait for the page to stop loading
+document.addEventListener('DOMContentLoaded', function() {
+//Make the elements
 
+    const theForm = document.getElementById('commentForm');
+    const inputContent = document.getElementById('userComment');
+    const theList = document.getElementById('commentsList');
 
-    // comment Section Function
+    // if the form isn't on this page, just stop here and don't break everything
+    if (!theForm) return; 
 
-    $('#commentForm').on('submit', function(event) {
+    // when someone hits the post button
+    theForm.addEventListener('submit', function(e) {
+        
+        // stop the page from refresh 
+        e.preventDefault();
 
-        event.preventDefault(); //so it dosnt refresh
+        // grab what they typed
+        const Comment = inputContent.value;
 
-        const text = $('#userComment').val(); //const, takes text
+        // cant be empty
+        if (Comment.trim() !== "") {
 
-        if (text.trim() !== "") { //if not empty
+            // wrap text in a bootstrap card so it looks decent
+            const htmlToInject = `
+                <div class="card mb-2 p-3 shadow-sm">
+<p class="comment-style mb-0">${Comment}</p>                </div>
+            `;
 
+            // slap it at the top of the list
+            if (theList) {
+                theList.insertAdjacentHTML('afterbegin', htmlToInject);
+            }
 
-            //list of comments 
-
-            $('#commentsList').prepend(`
-
-            <div class="card mb-2 p-3 shadow-sm">
-                ${text}
-            </div>
-
-        `); //each will be in its own little div
-            $('#userComment').val(''); //then clears the text after submit
+            // wipe the box so it's empty again
+            inputContent.value = "";
         }
     });
 });
