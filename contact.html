@@ -40,5 +40,33 @@
         <p>monkeybob@sigma.com</p>
         <p>hellothere@fanth.com</p>
         <img src="assets/contactus.png" alt="contactus" width="350" height="200">
+
+        <article id="itemlist" class="rounded">
+
+            <h3 class="text-center">Leave us a Comment</h3>
+
+        <section id="comment-section" class="container mt-5">
+           
+            <form id="commentForm">
+
+                <div class="mb-3">
+                    <textarea id="userComment" class="form-control" rows="3" placeholder="Write your comment here..." required></textarea>   <!--needs there to be text here-->
+                </div>
+                <button type="submit" id="CommentButton" class="btn btn-info">Post Comment</button>
+            </form>
+        
+
+        </section>
+
+        </article>
+
+        <article id="itemlist" class="rounded">
+            <div id="displayComments" class="mt-4">
+                <h3 class="text-center">Your Comments</h3>
+                <hr>
+                <div id="commentsList"></div>
+            </div>
+        </article>
+
     </main>
 </body>
