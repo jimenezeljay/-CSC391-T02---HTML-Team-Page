@@ -14,7 +14,8 @@ function enlargeImg() {
 
 /*TABLE CREATION, Code adapted from: https://www.youtube.com/watch?v=1tYjbrmsj6A*/
 
-fetch("./javascript/table1.json")
+const url = "http://localhost:8000/table1.json"
+fetch(url)
     .then(function(response) {
         console.error('Error:ddsadasdas', error);
         return response.json();
