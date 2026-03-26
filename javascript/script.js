@@ -16,46 +16,23 @@ function enlargeImg() {
 
 function createTable1() {
 
-    var jsonData = parse('./table1.json');
-    let col = [];
-
-    for (let i = 0; i < jsonData.length; i++) {
-        for (let key in jsonData[i]) {
-            if (col.indexOf(key) === -1) {
-                col.push(key);
+    fetch("table1.json")
+        .then(function(response) {
+            return response.json();
+        })
+        .then(function(items) {
+            let placeholder = document.querySelector("#table1");
+            let out = "";
+            for (let item of items) {
+                out += '<tr> <td>${item}.name</td> <td>Info</td> </tr>';
+                out += '<tr> <td>Rarity</td> <td>${item}.rarity</td> </tr>';
+                out += '<tr> <td>Source</td> <td>${item}.source</td> </tr>';
+                out += '<tr> <td>Drop Rate</td> <td>${item}.droprate</td> </tr>';
+                out += '<tr> <td>Type</td> <td>${item}.type</td> </tr>';
             }
-        }
+        })
 
-    }
-
-
-    const table = document.createElement("table");
-    const thead = table.createTHead();
-    const tbody = table.createTBody();
-
-    table.setAttribute("id", "table");
-
-    let tr = thead.insertRow(-1);
-
-    for (let index = 0; index < col.length; index++) {
-        let th = document.createElement("th");
-        th.innerHTML = col[index];
-        tr.appendChild(th);
-    }
-
-
-    for (let i = 0; i < jsonData.length; i++) {
-        tr = tbody.insertRow(-1);
-
-        for (let j = 0; j < col.length; j++) {
-            let tabCell = tr.insertCell(-1);
-            tabCell.innerHTML = jsonData[i][col[j]] /* jsonData[0]["userId"]*/
-        }
-
-    }
-
-    document.querySelector(".table1").appendChild(table);
-
+    placeholder.innerHTML = out;
 }
 
 createTable1();

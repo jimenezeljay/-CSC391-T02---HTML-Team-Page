@@ -52,5 +52,5 @@ Flex box was modeled after this: https://www.w3schools.com/css/tryit.asp?filenam
 
 Button and modals were taken from: https://www.w3schools.com/bootstrap/bootstrap_modal.asp
 
-Table creation code: https://www.youtube.com/watch?v=1tYjbrmsj6A
+Table creation code: https://www.youtube.com/watch?v=1tYjbrmsj6A and https://www.youtube.com/watch?v=eS-FVnhjvEQ
 
