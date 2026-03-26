@@ -1,0 +1,43 @@
+{
+    "table3data": [{
+            "name": "Galvanic Spear",
+            "rarity": "Silver",
+            "source": "Chest",
+            "droprate": "20",
+            "type": "Weapon",
+            "desc": "20 consective thunderous strikes. Piercing enemies and chain lighting for every strike"
+        },
+        {
+            "name": "Scorch Kartana ",
+            "rarity": "Silver",
+            "source": "Scorch guardians(enemies)",
+            "droprate": "10",
+            "type": "Weapon",
+            "desc": "Control the weight of the arrows and how far they carry. Can shoot 5 arrows at a time, making them heavy or light and able to control the speed in which the arrows fly"
+        },
+        {
+            "name": "Gravity Long Bow",
+            "rarity": "Gold",
+            "source": "Mage of Precision(seceret boss)",
+            "droprate": "5",
+            "type": "Weapon",
+            "desc": "Control the weight of the arrows and how far they carry. Can shoot 5 arrows at a time, making them heavy or light and able to control the speed in which the arrows fly"
+        },
+        {
+            "name": "Ripple Rapier",
+            "rarity": "Platinum",
+            "source": "Vestiage of Water(boss)",
+            "droprate": "100",
+            "type": "Key Item",
+            "desc": "Blade is made of high pressure water, making you able to control the length and being able to cut around any tight corners. A flexible blade of water that can cut enemies, even through cracks of walls"
+        },
+        {
+            "name": "Blood Sickles",
+            "rarity": "Platinum",
+            "source": "Curdling Blood Demon(boss)",
+            "droprate": "100",
+            "type": "Key Item",
+            "desc": "Able to teleport through blood portals, making movement unpredicable. Able to throw them and grapple opponents along with doing long ranged slices through the air"
+        }
+    ]
+}

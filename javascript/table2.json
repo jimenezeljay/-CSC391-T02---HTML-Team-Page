@@ -1,0 +1,35 @@
+{
+    "table2data": [{
+            "name": "Raptor Rapier",
+            "rarity": "Bronze",
+            "source": "Chest",
+            "droprate": "87.5",
+            "type": "Weapon",
+            "desc": "A blade modelled after a raptors claw. Gives the blood debuff"
+        },
+        {
+            "name": "Hornet Helmet",
+            "rarity": "Iron",
+            "source": "Chest",
+            "droprate": "87.5",
+            "type": "Armor",
+            "desc": "A helmet modelled after some kind of harrowing hornet"
+        },
+        {
+            "name": "Vapory Vestige",
+            "rarity": "Silver",
+            "source": "Chest",
+            "droprate": "87.5",
+            "type": "Armor",
+            "desc": "A strange mask. Prevents stat drops"
+        },
+        {
+            "name": "Philosopher's Stone",
+            "rarity": "Platinum",
+            "source": "Horrible Hornet King (boss)",
+            "droprate": "100",
+            "type": "Key Item",
+            "desc": "Grants eternal life, or so legends say. Note: Required to beat the final boss, the Gig of Chad. Has no pratical use in gameplay and is only used a cutscene"
+        }
+    ]
+}

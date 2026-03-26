@@ -13,41 +13,49 @@ function enlargeImg() {
 }
 
 /*TABLE CREATION, Code adapted from: https://www.youtube.com/watch?v=1tYjbrmsj6A*/
-let col = [];
 
-for (let i = 0; i < jsonData.length; i++) {
-    for (let key in jsonData[i]) {
-        if (col.indexOf(key) === -1) {
-            col.push(key);
+function createTable1() {
+
+    var jsonData = parse('./table1.json');
+    let col = [];
+
+    for (let i = 0; i < jsonData.length; i++) {
+        for (let key in jsonData[i]) {
+            if (col.indexOf(key) === -1) {
+                col.push(key);
+            }
         }
+
     }
 
-}
 
+    const table = document.createElement("table");
+    const thead = table.createTHead();
+    const tbody = table.createTBody();
 
-const table = document.createElement("table");
-const thead = table.createTHead();
-const tbody = table.createTBody();
+    table.setAttribute("id", "table");
 
-table.setAttribute("id", "json-table");
+    let tr = thead.insertRow(-1);
 
-let tr = thead.insertRow(-1);
-
-for (let index = 0; index < col.length; index++) {
-    let th = document.createElement("th");
-    th.innerHTML = col[index];
-    tr.appendChild(th);
-}
-
-
-for (let i = 0; i < jsonData.length; i++) {
-    tr = tbody.insertRow(-1);
-
-    for (let j = 0; j < col.length; j++) {
-        let tabCell = tr.insertCell(-1);
-        tabCell.innerHTML = jsonData[i][col[j]] /* jsonData[0]["userId"]*/
+    for (let index = 0; index < col.length; index++) {
+        let th = document.createElement("th");
+        th.innerHTML = col[index];
+        tr.appendChild(th);
     }
 
+
+    for (let i = 0; i < jsonData.length; i++) {
+        tr = tbody.insertRow(-1);
+
+        for (let j = 0; j < col.length; j++) {
+            let tabCell = tr.insertCell(-1);
+            tabCell.innerHTML = jsonData[i][col[j]] /* jsonData[0]["userId"]*/
+        }
+
+    }
+
+    document.querySelector(".table1").appendChild(table);
+
 }
 
-document.querySelector(".json-table-container").appendChild(table);
+createTable1();
