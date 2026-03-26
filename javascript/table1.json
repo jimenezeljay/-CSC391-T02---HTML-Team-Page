@@ -1,43 +1,41 @@
-{
-    "table1data": [{
-            "name": "Fräsh Berries",
-            "rarity": "Bronze",
-            "source": "Bushes",
-            "droprate": "90",
-            "type": "Consumable",
-            "desc": "Berries that refresh the soul along with your hunger and thirst.<br> These berries are located from the region of Gilead, often in rocky and mountainous locations"
-        },
-        {
-            "name": "Oh Bomb Ahh",
-            "rarity": "Iron",
-            "source": "Chest",
-            "droprate": "60.5",
-            "type": "Ammo",
-            "desc": "A legendary bomb that clears away any debuff splash effects"
-        },
-        {
-            "name": "Apollonia's boots",
-            "rarity": "Silver",
-            "source": "Chest",
-            "droprate": "15",
-            "type": "Armor",
-            "desc": "Grants control over solar energy arrows and movement speed increase"
-        },
-        {
-            "name": "Thunderblades",
-            "rarity": "Gold",
-            "source": "Chest",
-            "droprate": "12.5",
-            "type": "Weapon",
-            "desc": "Charged with electrical power (doubles if a thunderstorm is happening)"
-        },
-        {
-            "name": "Thesius' Club",
-            "rarity": "Platinum",
-            "source": "Altarbound Colossus (boss)",
-            "droprate": "4.7",
-            "type": "Weapon",
-            "desc": "When equiped, grants the the user enhanced durability and underwater breathing. Gains power every time you strike an enemy with this weapon"
-        }
-    ]
-}
+[{
+        "name": "Fräsh Berries",
+        "rarity": "Bronze",
+        "source": "Bushes",
+        "droprate": "90",
+        "type": "Consumable",
+        "desc": "Berries that refresh the soul along with your hunger and thirst.<br> These berries are located from the region of Gilead, often in rocky and mountainous locations"
+    },
+    {
+        "name": "Oh Bomb Ahh",
+        "rarity": "Iron",
+        "source": "Chest",
+        "droprate": "60.5",
+        "type": "Ammo",
+        "desc": "A legendary bomb that clears away any debuff splash effects"
+    },
+    {
+        "name": "Apollonia's boots",
+        "rarity": "Silver",
+        "source": "Chest",
+        "droprate": "15",
+        "type": "Armor",
+        "desc": "Grants control over solar energy arrows and movement speed increase"
+    },
+    {
+        "name": "Thunderblades",
+        "rarity": "Gold",
+        "source": "Chest",
+        "droprate": "12.5",
+        "type": "Weapon",
+        "desc": "Charged with electrical power (doubles if a thunderstorm is happening)"
+    },
+    {
+        "name": "Thesius' Club",
+        "rarity": "Platinum",
+        "source": "Altarbound Colossus (boss)",
+        "droprate": "4.7",
+        "type": "Weapon",
+        "desc": "When equiped, grants the the user enhanced durability and underwater breathing. Gains power every time you strike an enemy with this weapon"
+    }
+]

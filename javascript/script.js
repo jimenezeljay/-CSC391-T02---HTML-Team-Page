@@ -14,56 +14,50 @@ function enlargeImg() {
 
 /*TABLE CREATION, Code adapted from: https://www.youtube.com/watch?v=1tYjbrmsj6A*/
 
-function createTable1() {
-    fetch("table1.json")
-      .then(function(response) {
+fetch("table1.json")
+    .then(function(response) {
         return response.json();
-      })
-      .then(function(items) {
+    })
+    .then(function(table1data) {
         let placeholder = document.querySelector("#table1");
-        
-        // only runs if table actually exists
-        if (placeholder) {
-          let out = "";
-          for (let item of items) {
-            out += `<tr> <td>${item.name}</td> <td>Info</td> </tr>`;
-            out += `<tr> <td>Rarity</td> <td>${item.rarity}</td> </tr>`;
-            out += `<tr> <td>Source</td> <td>${item.source}</td> </tr>`;
-            out += `<tr> <td>Drop Rate</td> <td>${item.droprate}</td> </tr>`;
-            out += `<tr> <td>Type</td> <td>${item.type}</td> </tr>`;
-          }
-          placeholder.innerHTML = out;
+        let out = "";
+        for (let item of table1data) {
+            out += `
+            <tr> 
+                <td>${item.name}</td>
+                <td>Info</td>
+            </tr>
+            `;
         }
-      })
 
-  }
+        placeholder.innerHTML = out;
+    })
+
 
 $(document).ready(function() {
 
-createTable1();
+
+    // comment Section Function
+
+    $('#commentForm').on('submit', function(event) {
+
+        event.preventDefault(); //so it dosnt refresh
+
+        const text = $('#userComment').val(); //const, takes text
+
+        if (text.trim() !== "") { //if not empty
 
 
-// comment Section Function
+            //list of comments 
 
-$('#commentForm').on('submit', function(event) {
-
-    event.preventDefault(); //so it dosnt refresh
-
-    const text = $('#userComment').val(); //const, takes text
-    
-    if (text.trim() !== "") { //if not empty
-        
-
-        //list of comments 
-
-        $('#commentsList').prepend(`
+            $('#commentsList').prepend(`
 
             <div class="card mb-2 p-3 shadow-sm">
                 ${text}
             </div>
 
         `); //each will be in its own little div
-        $('#userComment').val(''); //then clears the text after submit
-    }
-}); 
+            $('#userComment').val(''); //then clears the text after submit
+        }
+    });
 });
