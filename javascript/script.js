@@ -14,8 +14,9 @@ function enlargeImg() {
 
 /*TABLE CREATION, Code adapted from: https://www.youtube.com/watch?v=1tYjbrmsj6A*/
 
-fetch("table1.json")
+fetch("./javascript/table1.json")
     .then(function(response) {
+        console.error('Error:ddsadasdas', error);
         return response.json();
     })
     .then(function(table1data) {
