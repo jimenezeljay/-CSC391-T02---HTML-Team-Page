@@ -152,6 +152,12 @@ SECTION/SPECIFIC STYLING
     z-index: 1;
 }
 
+#icon-small {
+    width: 15px !important;
+    height: auto;
+    display: inline-block;
+}
+
 .ProPic {
     border-radius: 50%;
     width: 200px;
