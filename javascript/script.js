@@ -31,6 +31,7 @@ function insertFn() {
 fetch("./table1.json")
     .then(function(response) {
         console.error('Error:ddsadasdas', error);
+        
         return response.json();
     })
     .then(function(table1data) {
@@ -38,15 +39,23 @@ fetch("./table1.json")
         let out = "";
         for (let item of table1data) {
             out += `
-            <tr> 
-                <td>${item.name}</td>
-                <td>Info</td>
-            </tr>
+            <tr><td>${item.name}</td><td>Info</td></tr>
+            <tr><td>Rarity</td><td>${item.rarity}</td></tr>
+            <tr><td>Source</td><td>${item.source}</td></tr>
+            <tr><td>Drop Rate</td><td>${item.droprate}</td></tr>
+            <tr><td>Type</td><td>${item.type}</td></tr>
             `;
         }
 
-        placeholder.innerHTML = out;
+        if (placeholder) {
+            placeholder.innerHTML = out;
+        }
     })
+    .catch(function(error) {
+        console.error("Fetch error:", error);
+    });
+    
+    
 
 
 
