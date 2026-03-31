@@ -12,6 +12,20 @@ function enlargeImg() {
     }
 }
 
+/*FOR ADDING NEW ROWS*/
+
+function insertFn() {
+    const newRow = 
+        `<tr>
+            <td>GFG 3</td>
+            <td>34</td>
+        </tr>`;
+    document.getElementById('tab').
+    getElementsByTagName('tbody')[0].
+    insertAdjacentHTML('beforeend', newRow);
+}
+
+
 /*TABLE CREATION, Code adapted from: https://www.youtube.com/watch?v=1tYjbrmsj6A*/
 
 const url = "table1.json"
@@ -35,6 +49,9 @@ fetch(url)
         placeholder.innerHTML = out;
     })
 
+
+
+/*FOR THE COMMENT SECTION*/
 
 // wait for the page to stop loading
 document.addEventListener('DOMContentLoaded', function() {
