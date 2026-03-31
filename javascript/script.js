@@ -38,11 +38,32 @@ fetch(url)
 
 // wait for the page to stop loading
 document.addEventListener('DOMContentLoaded', function() {
-//Make the elements
 
-    const theForm = document.getElementById('commentForm');
-    const inputContent = document.getElementById('userComment');
-    const theList = document.getElementById('commentsList');
+
+        //Make the elements
+
+        const theForm = document.getElementById('commentForm');
+        const inputContent = document.getElementById('userComment');
+        const theList = document.getElementById('commentsList');
+
+    //checks for already saved comments and if not there, it make a new epmty array
+    //JS only allows strings to be saved so we use JSOn to turn those strings back into an array in JS
+let savedComments = JSON.parse(localStorage.getItem('KOSM_Comments')) || [];
+
+
+    //this outputs each saved comment
+    //it grabs each string in our array and puts them back in the html envelope
+savedComments.forEach(function(EachComment) {
+    const storedComments = `
+    <div class="card mb-2 p-3 shadow-sm">
+         <p class="comment-style mb-0">${EachComment}</p>                
+    </div> `;
+
+    theList.insertAdjacentHTML('afterbegin', storedComments)//actually prints the stuff, reverse order so it appears right
+    
+});
+
+
 
     // if the form isn't on this page, just stop here and don't break everything
     if (!theForm) return; 
@@ -59,12 +80,18 @@ document.addEventListener('DOMContentLoaded', function() {
         // cant be empty
         if (Comment.trim() !== "") {
 
+            //add new comment to JS list for local storage
+            savedComments.push(Comment);
+
+            //gets the array,saved comments, turns it into strings again, and saves it as KOSM_Comements
+            localStorage.setItem('KOSM_Comments', JSON.stringify(savedComments));
+
+
             // wrap text in a bootstrap card so it looks decent
             const htmlToInject = `
                 <div class="card mb-2 p-3 shadow-sm">
 <p class="comment-style mb-0">${Comment}</p>                </div>
             `;
-
             // slap it at the top of the list
             if (theList) {
                 theList.insertAdjacentHTML('afterbegin', htmlToInject);
@@ -75,3 +102,4 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
