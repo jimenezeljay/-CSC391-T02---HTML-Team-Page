@@ -15,7 +15,7 @@ function enlargeImg() {
 /*FOR ADDING NEW ROWS*/
 
 function insertFn() {
-    const newRow = 
+    const newRow =
         `<tr>
             <td>GFG 3</td>
             <td>34</td>
@@ -28,8 +28,7 @@ function insertFn() {
 
 /*TABLE CREATION, Code adapted from: https://www.youtube.com/watch?v=1tYjbrmsj6A*/
 
-const url = "table1.json"
-fetch(url)
+fetch(". / table1 ")
     .then(function(response) {
         console.error('Error:ddsadasdas', error);
         return response.json();
