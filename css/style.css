@@ -391,3 +391,26 @@ video:hover {
     -webkit-filter: saturate(150%);
     filter: saturate(150%);
 }
+
+/* 
+================================
+ROW HIGHLIGHTING & DETAIL REVEAL 
+===============================
+*/
+
+/*applied by JS on mouseeneter, removed on mouseleave*/
+.row-highlight {
+    background-color: #D3AF37 !important;
+    color: black !important;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+/*hidden detail row that appears when you click an itme row*/
+.detail-cell {
+    background-color: #007BA7;
+    color: white;
+    font-style: italic;
+    padding: 10px 15px;
+    font-size: 14px;
+}
