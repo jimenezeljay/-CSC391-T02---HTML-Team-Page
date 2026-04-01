@@ -9,16 +9,18 @@ What each team member contributed to the webpage
 Eljay:
 - delete function for comment section
 - added add function for new items per table
+- Table creation
 
 
 
 Joseph:
--Shield enlargement
--JSON file
--Table creation
+- Shield enlargement
+- JSON file
+- Table creation
 
 Seamus:
-
+- Comment section and local storage
+- Table column sorting
 
 Icon, Cover Art, Banner, Desert Gameplay, Item Obtained, Contact Us, and Group Photos were made using Google Gemini
 Gameplay videos were made using Google Gemini
