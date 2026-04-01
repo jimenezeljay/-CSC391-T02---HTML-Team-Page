@@ -211,15 +211,25 @@
                                 <td>Item Type</td>
                                 <td>Weapon</td>
                             </tr>
-
+ 
                         </tbody>
+ 
+                        <!--empty tbody so new rows from Add Row form go here -->
+                        <tbody id="tbody-syns"></tbody>
                     </table>
 
-                <!-- from W3 Schools -->
-                
-                    <button onclick="insertFn()"> 
-                        Insert Row
-                    </button>
+                    <!--reads 6 input fields and builds a matching HTML row string, calling on 'attachRowListeners()' so the new row also gets hover and click behavior -->
+                    <div class="newRowForm">
+                        <div><label>Name</label><input id="syns-name" placeholder="Item name"></div>
+                        <div><label>Rarity</label><input id="syns-rarity" placeholder="Bronze / Gold..."></div>
+                        <div><label>Source</label><input id="syns-source" placeholder="Chest / Boss..."></div>
+                        <div><label>Drop %</label><input id="syns-drop" placeholder="0-100"></div>
+                        <div><label>Type</label><input id="syns-type" placeholder="Weapon / Armor..."></div>
+                        <div><label>Description</label><input id="syns-desc" placeholder="Item description"></div>
+                        <button class="btn btn-info" onclick="insertFn('tbody-syns','syns')">
+                            <img src="assets/Plus.png" id="icon-small"> Add Row
+                        </button>
+                    </div>
 
             </section>
             </details>
@@ -349,7 +359,21 @@
                             </tr>
 
                         </tbody>
+
+                        <tbody id="tbody-hornet"></tbody>
                     </table>
+
+                    <div class="newRowForm">
+                        <div><label>Name</label><input id="hornet-name" placeholder="Item name"></div>
+                        <div><label>Rarity</label><input id="hornet-rarity" placeholder="Bronze / Gold..."></div>
+                        <div><label>Source</label><input id="hornet-source" placeholder="Chest / Boss..."></div>
+                        <div><label>Drop %</label><input id="hornet-drop" placeholder="0-100"></div>
+                        <div><label>Type</label><input id="hornet-type" placeholder="Weapon / Armor..."></div>
+                        <div><label>Description</label><input id="hornet-desc" placeholder="Item description"></div>
+                        <button class="btn btn-info" onclick="insertFn('tbody-hornet','hornet')">
+                            <img src="assets/Plus.png" id="icon-small"> Add Row
+                        </button>
+                    </div>
                 </details>
 
                 <!--Monolithic Ruins-->
@@ -503,21 +527,25 @@
                                 </tr>
 
                             </tbody>
+                            
+                            <tbody id="tbody-monolithic"></tbody>
                         </table>
+
+                        <div class="newRowForm">
+                            <div><label>Name</label><input id="ruins-name" placeholder="Item name"></div>
+                            <div><label>Rarity</label><input id="ruins-rarity" placeholder="Bronze / Gold..."></div>
+                            <div><label>Source</label><input id="ruins-source" placeholder="Chest / Boss..."></div>
+                            <div><label>Drop %</label><input id="ruins-drop" placeholder="0-100"></div>
+                            <div><label>Type</label><input id="ruins-type" placeholder="Weapon / Armor..."></div>
+                            <div><label>Description</label><input id="ruins-desc" placeholder="Item description"></div>
+                            <button class="btn btn-info" onclick="insertFn('tbody-ruins','ruins')">
+                                <img src="assets/Plus.png" id="icon-small"> Add Row
+                            </button>
+                        </div>
                     </details>
                 </section>
         </article>
-
-        <table>
-            <thead>
-                <tr>
-                    <th>HAPPY FITS HOORAY</th>
-                </tr>>
-            </thead>
-            <tbody id="table1">
-
-            </tbody>
-        </table>
+        
         <!---
 ====================
     MEDIA GALLERY

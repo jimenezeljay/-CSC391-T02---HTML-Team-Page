@@ -414,3 +414,79 @@ ROW HIGHLIGHTING & DETAIL REVEAL
     padding: 10px 15px;
     font-size: 14px;
 }
+
+/* 
+==============================
+SORT BUTTONS IN TABLE HEADERS 
+=============================
+*/
+
+/*sort buttons sit inside <th> elements*/
+.sort-btn {
+    background: none;
+    border: none;
+    color: #D3AF37;
+    font-family: "Copperplate", serif;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 4px 8px;
+    transition: color 0.2s ease;
+}
+ 
+.sort-btn:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.delete-btn {
+    color: white !important;
+    font-family: "Palatino", serif;
+    background-color: #dc3545 !important;  /*Bootstrap's danger red, forced on */
+    border-color: #dc3545 !important;
+}
+
+.delete-btn:hover {
+    background-color: #a71d2a !important;  /*darker red on hover */
+    border-color: #a71d2a !important;
+}
+
+
+/* 
+======================================
+ADD NEW ROW INPUT FORM (one per table)
+======================================
+*/
+
+.newRowForm {
+    background-color: #0047AB;
+    border: 3px solid #D3AF37;
+    border-radius: 6px;
+    padding: 15px;
+    margin: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: flex-end;
+}
+
+.newRowForm input {
+    background-color: #1a1a2e;
+    border: 1px solid #D3AF37;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 4px;
+    font-family: Palatino, serif;
+    width: 150px;
+}
+
+.newRowForm input::placeholder {
+    color: #aaaa;
+}
+
+.newRowForm label {
+    color: #D3AF37;
+    font-size: 12px;
+    margin-bottom: 4px;
+    display: block;
+}
