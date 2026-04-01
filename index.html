@@ -4,8 +4,7 @@
 <head>
     <link rel="stylesheet" href="css/custom-bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="javascript/jquery-4.0.0.js"></script>
-    <script src="javascript/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>    <script src="javascript/bootstrap.min.js"></script>
     <script src="javascript/script.js"></script>
     <title>KOSM Items List </title>
     <link rel="icon" type="image/png" href="assets/ShieldIcon.png">
@@ -66,155 +65,16 @@
                 <p>A temple where the first peoples of Sigg Mah offered sacrifices to the gods. Has chests abounding that refresh every time the dungeon is cleared of enemies. <br> Enemies respawn every three hours. The enemies are an intermediate difficulty</p>
 
                 <details>
-                    <!--First Dungeon-->
                     <summary>Temple of Syns Items</summary>
+                
                     <table class="table table-striped table-bordered table-hover">
-                        <caption class="caption">Items from the Temple of Syns</caption>
-                        <!--The first item-->
-                        <colgroup>
-                            <col span="2">
-                            <col span="1" class="descCells">
-                        </colgroup>
+                        <caption class="caption">Items from the Temple of Syns (Click headers to sort)</caption>
                         <thead>
                             <tr>
-                                <th><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#desc1">Frösh Berries</button></th>
-                                <th>Info:</th>
+                                <th onclick="changeSort('name')" style="cursor:pointer; color: #0dcaf0;">Item Name ▲▼</th>
+                                <th onclick="changeSort('rarity')" style="cursor:pointer; color: #0dcaf0;">Rarity ▲▼</th>
                             </tr>
                         </thead>
-
-                        <tbody>
-                            <tr>
-                                <td>Rarity Tier</td>
-                                <td>Bronze</td>
-                            </tr>
-                            <tr>
-                                <td>Source Type</td>
-                                <td>Bushes</td>
-                            </tr>
-                            <tr>
-                                <td>Drop Percentage (%)</td>
-                                <td> 90%</td>
-                            </tr>
-                            <tr>
-                                <td>Item type</td>
-                                <td>Consumable</td>
-                            </tr>
-
-                        </tbody>
-
-                        <!--The second item-->
-                        <thead>
-                            <tr>
-                                <th><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#desc2">Oh Bomb Ahh</button></th>
-                                <th>Info:</th>
-                            </tr>
-                        </thead>
-
-                        <tbody>
-                            <tr>
-                                <td>Rarity Tier</td>
-                                <td>Iron</td>
-                            </tr>
-                            <tr>
-                                <td>Source Type</td>
-                                <td>Chest</td>
-                            </tr>
-                            <tr>
-                                <td>Drop Percentage (%)</td>
-                                <td> 60.5%</td>
-                            </tr>
-                            <tr>
-                                <td>Item Type</td>
-                                <td>Ammo</td>
-                            </tr>
-
-                        </tbody>
-
-                        <!--The third item-->
-                        <thead>
-                            <tr>
-                                <th><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#desc3">Apollonia's boots</button></th>
-                                <th>Info:</th>
-                            </tr>
-                        </thead>
-
-                        <tbody>
-                            <tr>
-                                <td>Rarity Tier</td>
-                                <td>Silver</td>
-                            </tr>
-                            <tr>
-                                <td>Source Type</td>
-                                <td>Chest</td>
-                            </tr>
-                            <tr>
-                                <td>Drop Percentage (%)</td>
-                                <td> 15%</td>
-                            </tr>
-                            <tr>
-                                <td>Item Type</td>
-                                <td>Armor</td>
-                            </tr>
-
-                        </tbody>
-
-                        <!--The fourth item-->
-                        <thead>
-                            <tr>
-                                <th><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#desc4">Thunderblades</button></th>
-                                <th>Info:</th>
-                            </tr>
-                        </thead>
-
-                        <tbody>
-                            <tr>
-                                <td>Rarity Tier</td>
-                                <td>Gold</td>
-                            </tr>
-                            <tr>
-                                <td>Source Type</td>
-                                <td>Chest</td>
-                            </tr>
-                            <tr>
-                                <td>Drop Percentage (%)</td>
-                                <td> 12.5%</td>
-                            </tr>
-                            <tr>
-                                <td>Item Type</td>
-                                <td>Weapon</td>
-                            </tr>
-
-                        </tbody>
-
-                        <!--The fifth item-->
-                        <thead>
-                            <tr>
-                                <th><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#desc5">Thesius' Club</button></th>
-                                <th>Info:</th>
-                            </tr>
-                        </thead>
-
-                        <tbody>
-                            <tr>
-                                <td>Rarity Tier</td>
-                                <td>Platinum</td>
-                            </tr>
-                            <tr>
-                                <td>Source Type</td>
-                                <td>Altarbound Colossus (boss)</td>
-                            </tr>
-                            <tr>
-                                <td>Drop Percentage (%)</td>
-                                <td> 4.7%</td>
-                            </tr>
-                            <tr>
-                                <td>Item Type</td>
-                                <td>Weapon</td>
-                            </tr>
- 
-                        </tbody>
- 
-                        <!--empty tbody so new rows from Add Row form go here -->
                         <tbody id="tbody-syns"></tbody>
                     </table>
 
@@ -230,9 +90,9 @@
                             <img src="assets/Plus.png" id="icon-small"> Add Row
                         </button>
                     </div>
-
+                </details>
             </section>
-            </details>
+          
 
             <h2><b>Hornet Tower</b></h2>
             <section>
@@ -241,6 +101,7 @@
                 <details>
                     <!--Second-->
                     <summary>Hornet Tower Items</summary>
+<p class="fst-italic small text-warning">Note: sorting is available on the Temple of Syns table only.</p>
                     <table class="table table-striped table-bordered table-hover">
                         <caption class="caption">Items from the Hornet Tower</caption>
                         <!--The first item-->
@@ -383,7 +244,8 @@
                     <details>
                         <!--Third-->
                         <summary>Monolithic Ruins of Memory Items</summary>
-                        <table class="table table-striped table-bordered table-hover">
+                        <p class="fst-italic small text-warning">Note: sorting is available on the Temple of Syns table only.</p>
+                        <table class="table table-striped table-bordered table-hover">                     
                             <caption class="caption">Items from the Monolithic Ruins of Memory</caption>
                             <colgroup>
                                 <col span="2">
@@ -538,8 +400,7 @@
                             <div><label>Drop %</label><input id="ruins-drop" placeholder="0-100"></div>
                             <div><label>Type</label><input id="ruins-type" placeholder="Weapon / Armor..."></div>
                             <div><label>Description</label><input id="ruins-desc" placeholder="Item description"></div>
-                            <button class="btn btn-info" onclick="insertFn('tbody-ruins','ruins')">
-                                <img src="assets/Plus.png" id="icon-small"> Add Row
+                            <button class="btn btn-info" onclick="insertFn('tbody-monolithic','ruins')">                                <img src="assets/Plus.png" id="icon-small"> Add Row
                             </button>
                         </div>
                     </details>
