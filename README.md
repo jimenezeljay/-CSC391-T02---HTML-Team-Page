@@ -7,7 +7,8 @@ Sass compilation command 'sass scss/custom.scss css/custom-bootstrap.css'
 What each team member contributed to the webpage
 
 Eljay:
--
+- delete function for comment section
+- added add function for new items per table
 
 
 
